@@ -1,16 +1,16 @@
 # imports
-pass
+import time
 
 # Load trained ML engine
 pass
 
 # global variables
 BESTMOVE = "e2e4"
+NODES = 0
 CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 10, 8, 9, 11, 12, 9, 8, 10, -1]
 
-
 # setname Options
-forced_enpassant = False
+forcedEnpassant = False
 
 # Internal necessary options
 default_internal = {
@@ -68,7 +68,7 @@ def main_loop():
             case "uci":
                 print("id name eaglefish")
                 print("id author David Evan Joe Mike Minh")
-
+                print("option name forcedEnpassant type check default false")
                 print("uci ok")
                 continue
             case "debug on":
@@ -87,13 +87,6 @@ def main_loop():
                 pass
                 continue
             case "ucinewgame":
-                
-                continue
-            case "stop":
-                print(BESTMOVE)
-                continue
-            case "ponderhit":
-                pass
                 continue
             case "quit":
                 break
@@ -102,6 +95,7 @@ def main_loop():
         i = 1
         match args[0]:
             case "go":
+                start_time = time.time()
                 internal = default_internal
                 search = None
                 while(i < length):
@@ -198,11 +192,22 @@ def main_loop():
                             case "ponderhit":
                                 print("user played expected moves!")
                                 continue
+                            case "stop":
+                                print("info nodes" + NODES + " time " + str(start_time - time.time()))
+                                print('bestmove ' + BESTMOVE)
+                                continue
                             case "quit":
                                 break
                     i += 1
             case "setoption":
-                pass
+                if not length == 5: continue
+                if args[1] != 'name': continue
+                if args[3] != 'value': continue
+                match args[2].lower():
+                    case "forcedenpassant":
+                        forcedEnpassant = args[4].lower() == "true\n" 
+                    case _:
+                        continue
             case "position":
                 if length < 2: continue
                 if args[1] == 'fen':
