@@ -31,7 +31,9 @@ default_internal = {
 internal = default_internal
 
 def set_position_from_fen(fen):
-    pos_string = fen.split()[0]
+    fen_args = fen.split()
+    pos_string = fen_args[0]
+    move = -1 if fen_args[1] == "w" else 1
     start = 56
     i = 0
     piecemap = {"p": 7,"r": 10,"n": 9, "b": 8,"q": 11,"k": 12, "P": 1,"R": 4,"N": 3,"B": 2,"Q": 5,"K": 6}
@@ -50,7 +52,7 @@ def set_position_from_fen(fen):
                 i += 1
             except:
                 raise Exception("Invalid FEN")
-
+    CURRENT_POSITION[-1] = move
     return
 
 def valid_move(stringmove):
