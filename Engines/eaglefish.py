@@ -94,13 +94,61 @@ def main_loop():
                             case "wtime":
                                 if type(args[i]) == int and args[i] > 0:
                                     internal['wtime'] = args[i]
+                                    continue
                                 else:
                                     break
-                            case "wtime":
+                            case "btime":
                                 if type(args[i]) == int and args[i] > 0:
-                                    internal['wtime'] = args[i]
+                                    internal['btime'] = args[i]
+                                    continue
                                 else:
                                     break
+                            case "winc":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['winc'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "binc":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['binc'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "movestogo":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['movestogo'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "depth":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['depth'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "nodes":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['nodes'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "mate":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['mate'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "movetime":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['movetime'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "infinite":
+                                internal['infinte'] = True
+                                internal['movetime'] = None
+                                continue
                     i += 1
             case "setoption":
                 pass
