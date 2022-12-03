@@ -93,59 +93,69 @@ def main_loop():
                                     break # ignore the remaining commands
                             case "wtime":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['wtime'] = args[i]
                                     continue
                                 else:
                                     break
                             case "btime":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['btime'] = args[i]
                                     continue
                                 else:
                                     break
                             case "winc":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['winc'] = args[i]
                                     continue
                                 else:
                                     break
                             case "binc":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['binc'] = args[i]
                                     continue
                                 else:
                                     break
                             case "movestogo":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['movestogo'] = args[i]
                                     continue
                                 else:
                                     break
                             case "depth":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['depth'] = args[i]
                                     continue
                                 else:
                                     break
                             case "nodes":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['nodes'] = args[i]
                                     continue
                                 else:
                                     break
                             case "mate":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['mate'] = args[i]
                                     continue
                                 else:
                                     break
                             case "movetime":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['movetime'] = args[i]
                                     continue
                                 else:
                                     break
                             case "infinite":
+                                search = None
                                 internal['infinte'] = True
                                 internal['movetime'] = None
                                 continue
