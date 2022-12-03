@@ -12,11 +12,6 @@ CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 
 # setname Options
 forced_enpassant = False
 
-def valid_move(stringmove):
-    alphabet = 'abcdefgh'
-    numbet = '12345678'
-    return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
-
 # Internal necessary options
 default_internal = {
     'searchmoves': None, # array of possible moves
@@ -32,7 +27,17 @@ default_internal = {
     'movetime': 10000, # in ms
     'infinite': False
 }
+
 internal = default_internal
+
+def set_position_from_fen(fen):
+    return
+
+def valid_move(stringmove):
+    alphabet = 'abcdefgh'
+    numbet = '12345678'
+    return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
+
 def main_loop():
     print("starting game")
     while True:
@@ -60,7 +65,7 @@ def main_loop():
                 pass
                 continue
             case "ucinewgame":
-                pass
+                
                 continue
             case "stop":
                 print(BESTMOVE)
@@ -177,7 +182,23 @@ def main_loop():
             case "setoption":
                 pass
             case "position":
-                pass
+                if length < 2: continue
+                if args[1] == 'fen':
+                    try:
+                        set_position_from_fen(args[2])
+                        i = 3
+                    except:
+                        continue
+                    if length == 3: continue
+                elif args[1] != 'startpos':
+                    if length == 2: continue
+                    i = 2
+                else: continue 
+                if not args[i] == 'moves': 
+                    continue
+                i += 1
+                while(i < length):
+                    i += 1
             case _:
                 print("no command matched")
         
