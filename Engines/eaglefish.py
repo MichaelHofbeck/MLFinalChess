@@ -6,6 +6,8 @@ pass
 
 # global variables
 BESTMOVE = "e2e4"
+CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 10, 8, 9, 11, 12, 9, 8, 10, -1]
+
 
 # setname Options
 forced_enpassant = False
@@ -163,6 +165,11 @@ def main_loop():
                                 search = None
                                 internal['infinite'] = True
                                 continue
+                            case "ponderhit":
+                                print("user played expected moves!")
+                                continue
+                            case "quit":
+                                break
                     i += 1
             case "setoption":
                 pass
