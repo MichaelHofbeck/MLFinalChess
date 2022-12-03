@@ -163,6 +163,11 @@ def main_loop():
                                 search = None
                                 internal['infinite'] = True
                                 continue
+                            case "ponderhit":
+                                print("user played expected moves!")
+                                continue
+                            case "quit":
+                                break
                     i += 1
             case "setoption":
                 pass
