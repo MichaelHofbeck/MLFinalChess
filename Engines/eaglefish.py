@@ -41,10 +41,9 @@ def main_loop():
             case "go":
                 flags = {"searchmoves": False, "ponder": False, "wtime": False, "btime": False, "winc": False, "binc": False, "movestogo": False, "depth": 3, "nodes": False, "mate": False, "movetime": 10000, "infinite": False}
                 while(True):
-                    for arg in args:
-                        if arg in flags:
-                            flags[arg] = 
-
+                    for i in range(len(args)):
+                        if args[i] in flags:
+                            flags[args[i]] = args[i + 1]
             case "setoption":
                 pass
             case "position":
