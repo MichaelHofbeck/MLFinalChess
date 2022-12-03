@@ -39,8 +39,12 @@ def main_loop():
         args = option.split()
         match args[0]:
             case "go":
+                flags = {"searchmoves": False, "ponder": False, "wtime": False, "btime": False, "winc": False, "binc": False, "movestogo": False, "depth": 3, "nodes": False, "mate": False, "movetime": 10000, "infinite": False}
                 while(True):
-                    
+                    for arg in args:
+                        if arg in flags:
+                            flags[arg] = 
+
             case "setoption":
                 pass
             case "position":
