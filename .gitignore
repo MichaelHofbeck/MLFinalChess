@@ -1,0 +1,26 @@
+# Ignore test files
+*.pgn
+*.epd
+*.exe
+*.log
+*.csv
+*.bat
+*.json
+
+# Ignore files inside the dirs created by setup.py
+build/*
+dist/*
+
+# Ignore files inside Engines dir
+Engines/*
+!Engines/eaglefish.py
+
+# Ignore opening books such as polyglot
+*.bin
+
+# Ignore text files, except README.txt
+*.txt
+!README.md
+
+venv
+.idea
