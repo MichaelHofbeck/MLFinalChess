@@ -16,7 +16,7 @@ def valid_move(stringmove):
     return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
 
 # Internal necessary options
-internal = {
+default_internal = {
     'searchmoves': None, # array of possible moves
     'ponder': False,  # boolean
     'wtime': 100000, # in ms
@@ -30,7 +30,7 @@ internal = {
     'movetime': 10000, # in ms
     'infinite': False
 }
-
+internal = default_internal
 def main_loop():
     print("starting game")
     while True:
@@ -70,6 +70,7 @@ def main_loop():
         i = 1
         match args[0]:
             case "go":
+                internal = default_internal
                 search = None
                 while(i < length):
                     if search == None:
@@ -91,16 +92,77 @@ def main_loop():
                                         internal['searchmoves'] = [args[i]]
                                 else:
                                     break # ignore the remaining commands
+                            case 'ponder':
+                                internal['ponder'] = True
+                                search = None
+                                continue
                             case "wtime":
                                 if type(args[i]) == int and args[i] > 0:
+                                    search = None
                                     internal['wtime'] = args[i]
+                                    continue
                                 else:
                                     break
-                            case "wtime":
+                            case "btime":
                                 if type(args[i]) == int and args[i] > 0:
-                                    internal['wtime'] = args[i]
+                                    search = None
+                                    internal['btime'] = args[i]
+                                    continue
                                 else:
                                     break
+                            case "winc":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['winc'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "binc":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['binc'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "movestogo":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['movestogo'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "depth":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['depth'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "nodes":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['nodes'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "mate":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['mate'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "movetime":
+                                if type(args[i]) == int and args[i] > 0:
+                                    search = None
+                                    internal['movetime'] = args[i]
+                                    continue
+                                else:
+                                    break
+                            case "infinite":
+                                search = None
+                                internal['infinite'] = True
+                                continue
                     i += 1
             case "setoption":
                 pass
