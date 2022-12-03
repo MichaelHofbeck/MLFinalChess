@@ -1,0 +1,900 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.18"]
+[Round "-"]
+[White "serhii27"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "879"]
+[BlackElo "821"]
+[TimeControl "180"]
+[EndTime "20:53:37 PDT"]
+[Termination "serhii27 won on time"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 d6 4. Bc4 Bg4 5. h3 Bh5 6. g4 Bg6 7. d3 Be7 8. h4 h6
+9. h5 Bh7 10. Be3 Nf6 11. Nd5 Nxd5 12. Bxd5 Qd7 13. Rg1 Bg5 14. Nxg5 hxg5 15.
+Bxg5 f6 16. Bh4 O-O-O 17. Qe2 Nd4 18. Qd2 c6 19. Bc4 Kb8 20. O-O-O Bg8 21. Qe3
+d5 22. exd5 Bxd5 23. Bxd5 Qxd5 24. c3 Nf3 25. Rg3 Nxh4 26. c4 Qa5 27. a3 Qb6 28.
+Qe4 Qxf2 29. Rh3 Ng2 30. Rh2 Qg3 31. Rxg2 Qf4+ 32. Qxf4 exf4 33. Rf2 Rd4 34. Re1
+f5 35. Re7 fxg4 36. Rxg7 Rxh5 37. Re2 f3 38. Re8+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.18"]
+[Round "-"]
+[White "FreeAnonHaas"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "808"]
+[BlackElo "812"]
+[TimeControl "180"]
+[EndTime "20:59:31 PDT"]
+[Termination "FreeAnonHaas won by checkmate"]
+
+1. e3 d5 2. d4 e6 3. a3 Nf6 4. b4 Ne4 5. f3 Qh4+ 6. g3 Nxg3 7. Kd2 Nxh1 8. Bg2
+Qf2+ 9. Qe2 Qxg1 10. Bxh1 Qxh1 11. Nc3 e5 12. Bb2 exd4 13. Rxh1 dxc3+ 14. Bxc3
+Be7 15. Bxg7 Rg8 16. Be5 Bh3 17. Qb5+ c6 18. Qxb7 Rg2+ 19. Kc1 Re2 20. Qxa8 Rxe3
+21. Qxb8+ Bd8 22. Qd6 f6 23. Qxc6+ Kf8 24. Qc5+ Be7 25. Qxe3 d4 26. Qxd4 fxe5
+27. Qxe5 Kf7 28. Re1 Bf6 29. Qd5+ Kg6 30. Qd3+ Bf5 31. Rg1+ Bg5+ 32. f4 Bxd3 33.
+cxd3 h6 34. fxg5 hxg5 35. h4 Kh5 36. Rxg5+ Kxh4 37. Ra5 Kg4 38. d4 Kf3 39. d5
+Ke4 40. d6 Kd4 41. d7 Kc4 42. d8=Q Kb3 43. Qb6 Ka2 44. Qxa7 Ka1 45. b5 Ka2 46.
+b6 Ka1 47. b7 Ka2 48. b8=Q Ka1 49. Qd4+ Ka2 50. Qbb2# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.19"]
+[Round "-"]
+[White "minhle10"]
+[Black "mauriciof2"]
+[Result "0-1"]
+[WhiteElo "805"]
+[BlackElo "841"]
+[TimeControl "180"]
+[EndTime "17:45:51 PDT"]
+[Termination "mauriciof2 won on time"]
+
+1. d4 Nf6 2. e3 Nc6 3. Nf3 d5 4. Bb5 Bg4 5. h3 Bxf3 6. Qxf3 Qd6 7. c4 dxc4 8.
+Bxc4 O-O-O 9. Bxf7 e5 10. Qf5+ Kb8 11. dxe5 Nxe5 12. Bb3 Nd3+ 13. Kd1 Nxf2+ 14.
+Ke2 N6e4 15. Qxf2 Nxf2 16. Kxf2 Qf6+ 17. Ke2 Qa6+ 18. Ke1 Bb4+ 19. Nc3 Rhe8 20.
+a3 Bxc3+ 21. bxc3 Qd3 22. Ra2 Qxc3+ 23. Bd2 Rxe3+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "shambhunath108"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "779"]
+[BlackElo "813"]
+[TimeControl "180"]
+[EndTime "21:22:35 PDT"]
+[Termination "minhle10 won - game abandoned"]
+
+1. e3 b6 2. d3 Bb7 3. Qf3 Bxf3 4. gxf3 Nf6 5. e4 e5 6. Bg5 Be7 7. Bxf6 Bxf6 8.
+Nh3 O-O 9. Rg1 d5 10. Rg4 dxe4 11. fxe4 Qd7 12. Nf4 Qxg4 13. Nd5 Na6 14. Ne7+
+Bxe7 15. f3 Qxf3 16. Be2 Qh1+ 17. Kd2 Bg5+ 18. Kc3 Qe1+ 19. Nd2 Qxe2 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "EdielO"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "834"]
+[BlackElo "805"]
+[TimeControl "180"]
+[EndTime "21:26:14 PDT"]
+[Termination "EdielO won by checkmate"]
+
+1. d4 d5 2. e3 e6 3. Bd3 Nf6 4. c3 c5 5. Nf3 Bd6 6. Nbd2 c4 7. Bc2 O-O 8. O-O
+Nc6 9. Re1 Ne7 10. Qe2 Nf5 11. e4 Nh6 12. e5 Bxe5 13. Nxe5 Qc7 14. h3 Ne4 15.
+Nxe4 dxe4 16. Qxe4 Bd7 17. Qxh7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "Greg-sNB"]
+[Result "1-0"]
+[WhiteElo "814"]
+[BlackElo "843"]
+[TimeControl "180"]
+[EndTime "15:34:11 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. e3 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+ 5. Nbxd2 c6 6. Bd3 Nf6 7. Ne5 Nbd7 8.
+O-O Nxe5 9. dxe5 Nd7 10. f4 O-O 11. Qh5 g6 12. Qh6 Qa5 13. c3 Nc5 14. Bc2 Qb6
+15. Rf3 Qxb2 16. Raf1 Qxc2 17. Rh3 Rd8 18. Qxh7+ Kf8 19. Qh8+ Ke7 20. Qf6+ Ke8
+21. Rh8+ Kd7 22. Qxd8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "Noxxider"]
+[Result "0-1"]
+[WhiteElo "806"]
+[BlackElo "819"]
+[TimeControl "180"]
+[EndTime "15:39:55 PDT"]
+[Termination "Noxxider won - game abandoned"]
+
+1. d4 Nf6 2. e3 d5 3. Nf3 Bg4 4. Be2 Bxf3 5. Bxf3 e6 6. Nd2 Nc6 7. Be2 a6 8. O-O
+b5 9. b3 Bd6 10. c4 bxc4 11. bxc4 Rb8 12. c5 Be7 13. Nb3 a5 14. Bd2 a4 15. Na5
+Nxa5 16. Bxa5 O-O 17. Qxa4 Ra8 18. Rab1 Qc8 19. Rb7 Qxb7 20. Qd7 Nxd7 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "Akramawii"]
+[Result "1-0"]
+[WhiteElo "814"]
+[BlackElo "800"]
+[TimeControl "180"]
+[EndTime "16:05:20 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 d5 2. e3 e6 3. Nf3 c5 4. Ne5 Bd6 5. Qh5 Bxe5 6. dxe5 c4 7. Nd2 b5 8. Nf3
+Ne7 9. Ng5 Ng6 10. b3 h6 11. bxc4 Qxg5 12. Qxg5 hxg5 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "LostInTheWoodz"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "850"]
+[BlackElo "807"]
+[TimeControl "300"]
+[EndTime "17:58:53 PDT"]
+[Termination "LostInTheWoodz won on time"]
+
+1. d4 b6 2. Nf3 Bb7 3. Bf4 e6 4. e3 Nf6 5. Bb5 a6 6. Ba4 b5 7. Bb3 d5 8. c3 Be7
+9. Bc2 g6 10. Ne5 O-O 11. Bh6 Re8 12. Bxg6 hxg6 13. Nxg6 fxg6 14. Qc2 Kf7 15.
+Nd2 Ne4 16. Nf3 Rh8 17. Ne5+ Ke8 18. Bg7 Rg8 19. Bh6 g5 20. Ng4 Kd7 21. f3 Nd6
+22. f4 gxf4 23. Ne5+ Kc8 24. exf4 Ne4 25. O-O-O Nc6 26. Nf7 Qe8 27. Ne5 Nxe5 28.
+fxe5 Bg5+ 29. Bxg5 Rxg5 30. h4 Rg4 31. h5 Bc6 32. h6 Kb7 33. h7 Qh8 34. Qe2 Rg7
+35. Qh5 Be8 36. Qh6 Nf2 37. Rh5 Nxd1 38. Kxd1 Bxh5+ 39. Qxh5 Rxh7 40. Qf5 Rh1+
+41. Kc2 Qh6 42. Qf7 Qc1+ 43. Kb3 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "VICIOUS052"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "760"]
+[BlackElo "814"]
+[TimeControl "300"]
+[EndTime "18:13:28 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. b3 b6 2. Bb2 Bb7 3. e3 e6 4. Qg4 Nf6 5. Bxf6 Qxf6 6. Qd4 Qxd4 7. exd4 d5 8.
+Nc3 c5 9. Nb5 Na6 10. Nc3 cxd4 11. Bxa6 Bxa6 12. Na4 b5 13. Nb2 Rc8 14. Rc1 b4
+15. Nd3 Bxd3 16. Nf3 Bxc2 17. O-O d3 18. Nd4 Bc5 19. Nxc2 dxc2 20. Rfe1 Bd4 21.
+d3 O-O 22. Re2 e5 23. Rexc2 Rxc2 24. Rxc2 Bc3 25. a4 bxa3 26. b4 Rb8 27. Ra2
+Bxb4 28. g3 Rc8 29. Re2 f6 30. d4 exd4 31. Re6 a2 32. Ra6 Rc2 33. Rxa7 d3 34.
+Ra8+ Kf7 35. Kg2 Bc3 36. Ra7+ Kg6 37. Rxa2 Rxa2 38. Kf3 d2 39. Ke3 Ra1 40. Kd3
+d1=Q+ 41. Kxc3 Rc1+ 42. Kb2 Qc2+ 43. Ka3 Rb1 44. h4 Qc8 45. h5+ Kxh5 46. g4+ Kg6
+47. g5 Qa8# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "Crioyo"]
+[Result "0-1"]
+[WhiteElo "807"]
+[BlackElo "867"]
+[TimeControl "300"]
+[EndTime "18:21:31 PDT"]
+[Termination "Crioyo won - game abandoned"]
+
+1. d4 g6 2. e3 Bg7 3. Nf3 e6 4. Be2 Ne7 5. O-O b6 6. c4 Bb7 7. c5 bxc5 8. dxc5
+Nbc6 9. b4 Bxa1 10. Qa4 Bg7 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "PeluruNyasar"]
+[Result "0-1"]
+[WhiteElo "798"]
+[BlackElo "790"]
+[TimeControl "180"]
+[EndTime "19:33:27 PDT"]
+[Termination "PeluruNyasar won by checkmate"]
+
+1. d4 d5 2. e3 c6 3. Nf3 e6 4. Bd3 Nf6 5. Ne5 Ne4 6. c4 dxc4 7. Nxc4 b5 8. Ne5
+Bd6 9. Bxe4 Bb7 10. O-O Qe7 11. Bd2 Nd7 12. Nxc6 Qh4 13. Bd5 Qxh2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "kirtashtyr"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "785"]
+[BlackElo "790"]
+[TimeControl "180"]
+[EndTime "8:43:28 PDT"]
+[Termination "kirtashtyr won by checkmate"]
+
+1. d4 d5 2. e3 e6 3. Nf3 Nf6 4. Bd3 Bd6 5. Nbd2 Nbd7 6. Qe2 Qe7 7. O-O O-O 8. e4
+e5 9. dxe5 Bxe5 10. Nxe5 Nxe5 11. exd5 Nxd5 12. Qe4 Nf6 13. Nf3 Nfd7 14. Qxh7#
+1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "diegobotelho"]
+[Result "1-0"]
+[WhiteElo "797"]
+[BlackElo "755"]
+[TimeControl "180"]
+[EndTime "8:49:51 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 Bf5 4. Ne5 c5 5. c3 Nc6 6. Bb5 Qc7 7. Qf3 cxd4 8. Qxf5
+dxc3 9. bxc3 Qa5 10. Bxc6+ bxc6 11. Nxc6 Qc5 12. Ne5 e6 13. Qf3 Ne4 14. Qxf7+
+Kd8 15. Qd7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "THEsvr_1006"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "784"]
+[BlackElo "789"]
+[TimeControl "180"]
+[EndTime "8:55:46 PDT"]
+[Termination "THEsvr_1006 won on time"]
+
+1. e4 e5 2. Nf3 d6 3. d3 Bg4 4. h3 Bxf3 5. gxf3 Be7 6. Nc3 Bh4 7. Qe2 Nc6 8. Be3
+Nd4 9. Bxd4 exd4 10. Nd5 c6 11. Nf4 Bg5 12. Ng2 Ne7 13. f4 Bf6 14. O-O-O O-O 15.
+f5 a5 16. h4 Nc8 17. Qg4 c5 18. Nf4 g6 19. fxg6 fxg6 20. h5 g5 21. Ne6 Qd7 22.
+Nxf8 Qxg4 23. Bh3 Qf4+ 24. Kb1 Qxf2 25. Ne6 Qf4 26. Nxf4 gxf4 27. Rhg1+ Kf7 28.
+Rdf1 Ne7 29. Rxf4 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "aspirex23"]
+[Result "1-0"]
+[WhiteElo "797"]
+[BlackElo "767"]
+[TimeControl "180"]
+[EndTime "8:57:05 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 Ne4 4. Ne5 e6 5. Qf3 f6 6. Qh5+ Ke7 7. Ng6+ Kd6 8.
+Nxh8 e5 9. Nf7+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "imkalooooo"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "819"]
+[BlackElo "806"]
+[TimeControl "180"]
+[EndTime "8:59:50 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 e5 2. g3 Nc6 3. Bg2 Nf6 4. b3 d5 5. exd5 Nxd5 6. Bb2 Bc5 7. d3 Bd4 8. Bxd4
+Nxd4 9. Ne2 O-O 10. O-O Be6 11. Nd2 c5 12. c4 Nf6 13. a3 b6 14. Bxa8 Qxa8 15. b4
+Bh3 16. Re1 Qg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "Ani-mesh"]
+[Result "1-0"]
+[WhiteElo "815"]
+[BlackElo "819"]
+[TimeControl "180"]
+[EndTime "9:03:42 PDT"]
+[Termination "minhle10 won on time"]
+
+1. d4 e6 2. e3 d5 3. Nf3 Bd6 4. Nc3 Bd7 5. Bd2 Nf6 6. Ne5 O-O 7. Bd3 Bxe5 8.
+dxe5 Ne4 9. f3 Nxc3 10. Bxc3 Qg5 11. Qe2 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "andreinovaco"]
+[Result "0-1"]
+[WhiteElo "806"]
+[BlackElo "789"]
+[TimeControl "180"]
+[EndTime "9:06:08 PDT"]
+[Termination "andreinovaco won by checkmate"]
+
+1. d4 b6 2. e3 Bb7 3. Nf3 g6 4. Ne5 Bg7 5. Nc3 e6 6. Bd2 Ne7 7. Bd3 O-O 8. e4 d6
+9. Nf3 f5 10. e5 dxe5 11. dxe5 c5 12. O-O Qc7 13. Bf4 h6 14. h4 Nec6 15. Re1 Nd4
+16. Nxd4 cxd4 17. Nb5 Qc6 18. Nd6 Qxg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "Sonification"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "772"]
+[BlackElo "797"]
+[TimeControl "180"]
+[EndTime "21:42:47 PDT"]
+[Termination "Sonification won on time"]
+
+1. e4 e5 2. Nf3 d6 3. d3 Bg4 4. Be2 Bxf3 5. Bxf3 Nf6 6. b3 Be7 7. Bb2 O-O 8. Nc3
+Nc6 9. a3 Nd4 10. Na4 c5 11. Bxd4 cxd4 12. Qd2 b5 13. Nb2 a5 14. a4 bxa4 15.
+Rxa4 d5 16. O-O dxe4 17. Bxe4 Bb4 18. Qg5 h6 19. Qf5 g6 20. Qh3 h5 21. Nc4 Nxe4
+22. dxe4 Qc7 23. Qg3 Bd6 24. Re1 Bb4 25. Re2 f6 26. Kh1 Kg7 27. h3 Rac8 28. Kh2
+Rf7 29. Kh1 g5 30. Kg1 Kg6 31. Kh1 h4 32. Qg4 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "helpkar"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "810"]
+[BlackElo "805"]
+[TimeControl "180"]
+[EndTime "21:48:20 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. g3 d5 2. b3 e6 3. Bb2 Nc6 4. h4 e5 5. f4 exf4 6. gxf4 Nf6 7. h5 h6 8. a4 Be7
+9. a5 a6 10. d3 O-O 11. c4 d4 12. Ba3 Bxa3 13. Rxa3 Ng4 14. e3 Nxe3 15. Qe2 Re8
+16. Kd2 Nxc4+ 17. dxc4 Rxe2+ 18. Kxe2 d3+ 19. Kd2 Nb4 20. Ra4 Nc6 21. Bxd3 Bf5
+22. Rh3 Bxh3 23. Nxh3 Qh4 24. Ng1 Qxf4+ 25. Kc3 Qd4+ 26. Kd2 Rd8 27. Ne2 Qxd3+
+28. Ke1 Nd4 29. Nxd4 Qxd4 30. b4 Re8+ 31. Kf1 Qd3+ 32. Kf2 Re2+ 33. Kf1 Qd1# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "Chesster_B"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "792"]
+[BlackElo "813"]
+[TimeControl "180"]
+[EndTime "21:54:34 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nge7 5. Be3 Bxe3 6. fxe3 d5 7. Bb3 O-O 8.
+exd5 Nxd5 9. Bxd5 Qxd5 10. O-O Bg4 11. Nc3 Qe6 12. h3 Bh5 13. g4 Bg6 14. Nh4 f5
+15. Nxg6 Qxg6 16. e4 fxg4 17. Qxg4 Rxf1+ 18. Rxf1 Qd6 19. Nd5 Qc5+ 20. Kg2 Qxc2+
+21. Rf2 Qc5 22. Nxc7 Rf8 23. Rxf8+ Qxf8 24. Nb5 Qc5 25. Nc7 Qc2+ 26. Kg3 Qxd3+
+27. Kh4 Qd8+ 28. Qg5 Qxc7 29. b3 Nd4 30. Kg4 Qd7+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "abamichel"]
+[Result "1-0"]
+[WhiteElo "821"]
+[BlackElo "785"]
+[TimeControl "180"]
+[EndTime "21:55:29 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. e3 f6 3. Nf3 Nc6 4. Nh4 e5 5. Qh5+ g6 6. Nxg6 Bg7 7. Nxh8+ Kf8 8.
+Qf7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "ReinFree"]
+[Result "1-0"]
+[WhiteElo "830"]
+[BlackElo "867"]
+[TimeControl "180"]
+[EndTime "21:58:14 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 Bg4 4. Be2 Nbd7 5. Ne5 Bxe2 6. Qxe2 Nxe5 7. dxe5 Ne4
+8. f3 Ng5 9. f4 Ne4 10. Nd2 e6 11. Nxe4 dxe4 12. Qb5+ c6 13. Qxb7 Bc5 14. Qxc6+
+Qd7 15. Qxa8+ Qd8 16. Qc6+ Ke7 17. Qxc5+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "NikolaSmyl"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "789"]
+[BlackElo "837"]
+[TimeControl "180"]
+[EndTime "22:03:54 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 d5 2. d3 Nc6 3. Nc3 Nf6 4. exd5 Nxd5 5. Ne4 e6 6. Bg5 Be7 7. h4 Bxg5 8.
+hxg5 f5 9. gxf6 Nxf6 10. Nxf6+ Qxf6 11. Qh5+ g6 12. Qc5 Qxb2 13. Rd1 Bd7 14. Nf3
+O-O-O 15. d4 b6 16. Qc4 Na5 17. Qa6+ Kb8 18. Ne5 Qb4+ 19. Rd2 Rhf8 20. f3 Rf4
+21. Bd3 Rxd4 22. O-O Rd5 23. a3 Qxa3 24. Rb1 Qc5+ 25. Kh1 Rxe5 26. Rxb6+ axb6
+27. Be4 Rh5# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "PoliteOrange1004"]
+[Result "0-1"]
+[WhiteElo "828"]
+[BlackElo "821"]
+[TimeControl "180"]
+[EndTime "22:15:49 PDT"]
+[Termination "PoliteOrange1004 won on time"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 Nc6 4. Bb5 Bg4 5. h3 Bxf3 6. Qxf3 a6 7. Bxc6+ bxc6 8.
+O-O e5 9. dxe5 Ne4 10. Qf4 Be7 11. f3 Bg5 12. Qf5 g6 13. Qg4 h5 14. Qxg5 Qxg5
+15. fxe4 dxe4 16. Nc3 O-O-O 17. Nxe4 Qf5 18. Rxf5 gxf5 19. Nf6 Rd1+ 20. Kh2 h4
+21. a4 a5 22. b4 axb4 23. a5 Kb7 24. a6+ Ka7 25. Nd7 Rd8 26. Nc5 R8d5 27. Nd3 c5
+28. Ra5 Kb6 29. Rxc5 Kxa6 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "shifum"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "791"]
+[BlackElo "835"]
+[TimeControl "180"]
+[EndTime "13:33:25 PDT"]
+[Termination "minhle10 won on time"]
+
+1. Nf3 b6 2. g3 Bb7 3. Bg2 e6 4. O-O Nf6 5. Nc3 Be7 6. b3 O-O 7. Bb2 d6 8. e4
+Nxe4 9. Nxe4 Bxe4 10. d3 Bb7 11. Nd4 Bxg2 12. Kxg2 Bf6 13. c3 c5 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "Boum1973"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "810"]
+[BlackElo "843"]
+[TimeControl "180"]
+[EndTime "13:39:50 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e3 b6 2. d3 Bb7 3. b3 e6 4. Bb2 Nf6 5. Nd2 Be7 6. h3 O-O 7. a3 d5 8. g3 d4 9.
+e4 c5 10. Bg2 Ne8 11. Ne2 f5 12. f3 Kh8 13. Nf4 Qd7 14. Qe2 e5 15. Nd5 Bxd5 16.
+exd5 Qxd5 17. O-O-O Nd7 18. g4 f4 19. Ne4 a5 20. h4 a4 21. g5 axb3 22. cxb3 Qxb3
+23. Qc2 Qd5 24. h5 b5 25. g6 h6 26. Bh3 c4 27. Bxd7 Qxd7 28. Ng5 Bxg5 29. Rhg1
+c3 30. Bxc3 dxc3 31. Qxc3 Rc8 32. Qxc8 Qxc8+ 33. Kd2 Be7 34. Rc1 Bxa3 35. Rc7
+Qxc7 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "smartbelly"]
+[Result "1-0"]
+[WhiteElo "852"]
+[BlackElo "856"]
+[TimeControl "180"]
+[EndTime "14:36:23 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 b5 2. e3 Nf6 3. Bxb5 c6 4. Bd3 Ba6 5. Bxa6 Nxa6 6. Qe2 Qb6 7. Nc3 e6 8.
+Nf3 Bb4 9. Bd2 d6 10. O-O c5 11. a3 Bxc3 12. Bxc3 Qc7 13. Qxa6 cxd4 14. Nxd4 d5
+15. Qb5+ Kf8 16. Bb4+ Kg8 17. Qc6 Qe5 18. Qxa8+ Ne8 19. Qxe8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "Maldo999"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "843"]
+[BlackElo "844"]
+[TimeControl "180"]
+[EndTime "14:41:25 PDT"]
+[Termination "Maldo999 won on time"]
+
+1. d4 d5 2. Nc3 Bf5 3. Nf3 e6 4. e3 Bb4 5. Bd3 Bxd3 6. Qxd3 Nf6 7. a3 Bxc3+ 8.
+Qxc3 Nbd7 9. Qb3 b6 10. Qb5 O-O 11. O-O Ne4 12. Qd3 c5 13. dxc5 Ndxc5 14. Qe2
+Qf6 15. Nd4 Qg6 16. b4 Nd7 17. Qb5 Ndf6 18. Bb2 Nd2 19. Rfd1 Nde4 20. Rac1 h5
+21. c4 h4 22. cxd5 exd5 23. h3 Ng4 24. hxg4 Qxg4 25. Nf3 h3 26. g3 Qxf3 27. Qf1
+h2+ 28. Kxh2 Qh5+ 29. Kg1 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "CancerKensy"]
+[Result "0-1"]
+[WhiteElo "835"]
+[BlackElo "804"]
+[TimeControl "180"]
+[EndTime "14:47:48 PDT"]
+[Termination "CancerKensy won on time"]
+
+1. d4 e5 2. e3 exd4 3. exd4 Nf6 4. Nf3 Nc6 5. c3 d5 6. Bg5 Be7 7. Qe2 Ne4 8.
+Bxe7 Qxe7 9. Ne5 O-O 10. f3 Nf6 11. Nxc6 Qxe2+ 12. Bxe2 bxc6 13. O-O Re8 14. Bd3
+Rb8 15. b4 Nh5 16. Nd2 Nf4 17. Bc2 Ne2+ 18. Kh1 Nxc3 19. Ba4 Nxa4 20. Rac1 Ba6
+21. Rxc6 Bxf1 22. Rxc7 Re1 23. h3 Bc4+ 24. Kh2 Bxa2 25. Rxa7 Nc3 26. b5 h6 27.
+f4 Re2 28. Nf3 Nxb5 29. Ra5 Nc3 30. Rxd5 Nxd5 31. Ne5 Nxf4 32. Nf3 Rxg2+ 33. Kh1
+Rb1+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "oliverdca"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "887"]
+[BlackElo "828"]
+[TimeControl "180"]
+[EndTime "18:12:45 PDT"]
+[Termination "oliverdca won by checkmate"]
+
+1. d4 d5 2. Bf4 f6 3. Nc3 Nc6 4. Nb5 e5 5. dxe5 fxe5 6. Bg3 Nf6 7. f4 a6 8. fxe5
+Ne4 9. e6 axb5 10. e3 Bxe6 11. Bxb5 Bd6 12. Qh5+ Bf7 13. Qf5 O-O 14. Nf3 Bg6 15.
+Qe6+ Bf7 16. Qf5 Bxg3+ 17. hxg3 Nxg3 18. Qxh7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "Deliciousdylan"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "834"]
+[BlackElo "836"]
+[TimeControl "180"]
+[EndTime "18:44:35 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. d3 Nf6 6. Nxe5 Bd6 7. Nf3 Bg4 8.
+O-O O-O 9. h3 Bh5 10. Be3 c5 11. Nbd2 b6 12. Qe1 Re8 13. Bg5 h6 14. Bxf6 Qxf6
+15. Qe2 Qxb2 16. c4 Bf4 17. Rfd1 Bxf3 18. gxf3 Re6 19. Kf1 b5 20. cxb5 axb5 21.
+Ke1 Rxa2 22. Rxa2 Qxa2 23. Nf1 Qa5+ 24. Nd2 Rg6 25. Kf1 b4 26. Nc4 Qa4 27. Rb1
+b3 28. Rb2 Qa1+ 29. Qe1 Qa3 30. Nd6 Qb4 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "carlitosCde"]
+[Result "1-0"]
+[WhiteElo "843"]
+[BlackElo "805"]
+[TimeControl "180"]
+[EndTime "18:48:23 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 d5 2. e3 c6 3. Nf3 Bg4 4. Be2 Bxf3 5. Bxf3 Nh6 6. O-O Nf5 7. Nd2 h6 8. c4
+g5 9. Qb3 e6 10. Qxb7 Nd7 11. Qxc6 g4 12. Bxg4 Nd6 13. c5 Rc8 14. Qa4 Nc4 15.
+Nxc4 dxc4 16. Qxc4 Bxc5 17. dxc5 Rxc5 18. Qd4 e5 19. Bxd7+ Qxd7 20. Qxc5 Rg8 21.
+Qxe5+ Kf8 22. b3 Qg4 23. Ba3+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "Lamp93093"]
+[Result "0-1"]
+[WhiteElo "836"]
+[BlackElo "880"]
+[TimeControl "180"]
+[EndTime "20:40:14 PDT"]
+[Termination "Lamp93093 won on time"]
+
+1. d4 d5 2. e3 Nc6 3. Nf3 Nf6 4. Bb5 e6 5. Ne5 Qe7 6. Nxc6 bxc6 7. Bxc6+ Bd7 8.
+Bxa8 Ne4 9. f3 Qb4+ 10. c3 Nxc3 11. bxc3 Qa5 12. O-O Ba4 13. Qe2 Bb5 14. Bc6+
+Bxc6 15. Qf2 Bb5 16. Re1 Bd6 17. Bd2 Qb6 18. e4 dxe4 19. fxe4 O-O 20. e5 Be7 21.
+Qg3 c5 22. Bh6 g6 23. Bxf8 Bxf8 24. Nd2 cxd4 25. cxd4 Qxd4+ 26. Qf2 Qb4 27. Rab1
+Qa5 28. Nb3 Qa3 29. Qd2 Qe7 30. Re3 Ba4 31. Rh3 Bxb3 32. axb3 Qc5+ 33. Kh1 a5
+0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.23"]
+[Round "-"]
+[White "minhle10"]
+[Black "Sourabhsanpe"]
+[Result "0-1"]
+[WhiteElo "827"]
+[BlackElo "806"]
+[TimeControl "180"]
+[EndTime "19:56:20 PDT"]
+[Termination "Sourabhsanpe won on time"]
+
+1. d4 e5 2. dxe5 Nc6 3. f4 Qh4+ 4. g3 Qh5 5. Nc3 f6 6. exf6 Nxf6 7. Bg2 Nd4 8.
+Be3 Nb5 9. Nxb5 Qxb5 10. Qd4 Bb4+ 11. c3 Be7 12. O-O-O d5 13. h4 Bg4 14. Bf3
+Bxf3 15. Nxf3 Qxe2 16. Ng5 b6 17. Qa4+ Kf8 18. Ne6+ Kf7 19. Ng5+ Kg8 20. Qc6
+Qxe3+ 21. Kb1 Rd8 22. Qxc7 h6 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "rlokineni"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "802"]
+[BlackElo "818"]
+[TimeControl "180"]
+[EndTime "17:29:34 PDT"]
+[Termination "rlokineni won on time"]
+
+1. e4 b6 2. Bb5 e5 3. Qe2 Nf6 4. Nf3 Bd6 5. Qc4 O-O 6. d4 exd4 7. Nxd4 Be5 8. f4
+Bxd4 9. Qxd4 a6 10. Bc4 Nc6 11. Qc3 Nxe4 12. Qe3 Nd6 13. O-O Nxc4 14. Qc3 b5 15.
+b3 Nd6 16. Na3 b4 17. Qc5 bxa3 18. Qxa3 Nb5 19. Qb2 d6 20. f5 g6 21. fxg6 fxg6
+22. Rxf8+ Qxf8 23. c4 Nbd4 24. Qc3 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "milena0408"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "835"]
+[BlackElo "827"]
+[TimeControl "180"]
+[EndTime "17:32:27 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nc6 4. d5 Nd4 5. Nxd4 exd4 6. Qxd4 Nf6 7. Bg5 Be7 8.
+Bxf6 Bxf6 9. e5 Bxe5 10. Qe4 O-O 11. c3 Re8 12. Bd3 Bf6 13. Qxe8+ Qxe8+ 14. Be2
+Bg4 15. f3 Bh4+ 16. g3 Bxf3 17. O-O Qxe2 18. gxh4 Qg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "minhle10"]
+[Black "shinosbabu7"]
+[Result "1-0"]
+[WhiteElo "836"]
+[BlackElo "843"]
+[TimeControl "180"]
+[EndTime "17:34:37 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 e6 2. e3 d5 3. Nf3 f6 4. Nh4 a6 5. Qh5+ Ke7 6. Ng6+ Kd6 7. Nxh8 g6 8. Qf3
+Qe7 9. Bd2 Bg7 10. Bb4+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "minhle10"]
+[Black "Tomastter"]
+[Result "1-0"]
+[WhiteElo "844"]
+[BlackElo "809"]
+[TimeControl "180"]
+[EndTime "17:35:54 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. e3 Nc6 3. Nf3 Bf5 4. Bb5 a6 5. Ba4 b5 6. Bb3 Nb4 7. O-O Nxc2 8. Bxc2
+Bxc2 9. Qxc2 e6 10. Ne5 Qe7 11. Qc6+ Kd8 12. Qxa8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "Rezza96"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "830"]
+[BlackElo "852"]
+[TimeControl "180"]
+[EndTime "17:40:38 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 e5 2. Nc3 d6 3. Bc4 Nc6 4. b3 Nf6 5. Nf3 Bg4 6. O-O Be7 7. Bb2 O-O 8. d3
+Nd4 9. h3 Nxf3+ 10. gxf3 Bxh3 11. f4 exf4 12. Re1 Bg4 13. f3 Be6 14. e5 dxe5 15.
+Bxe6 fxe6 16. Rxe5 Qd4+ 17. Kf1 Qxe5 18. Ne4 Qxb2 19. Nxf6+ Rxf6 20. Rb1 Qd4 21.
+a4 Bc5 22. Ke2 Qe3+ 23. Kf1 Qf2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "Petrel123"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "865"]
+[BlackElo "860"]
+[TimeControl "180"]
+[EndTime "17:44:10 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. e4 dxe4 3. Nc3 f5 4. Be3 Nf6 5. f3 Nc6 6. fxe4 fxe4 7. Bb5 Bd7 8.
+Nge2 e6 9. O-O Qe7 10. Bg5 O-O-O 11. Nxe4 h6 12. Bxf6 gxf6 13. Nxf6 Bg7 14. Nxd7
+Qxd7 15. c3 a6 16. Bxc6 Qxc6 17. Rf7 Bf8 18. Nf4 Bd6 19. Nxe6 Bxh2+ 20. Kxh2
+Qxe6 21. Rf1 Rhg8 22. Kg1 Qe3+ 23. Kh1 Rxg2 24. Kxg2 Rg8+ 25. Kh1 Qh3# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "choloysantos"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "917"]
+[BlackElo "853"]
+[TimeControl "180"]
+[EndTime "17:53:43 PDT"]
+[Termination "choloysantos won by checkmate"]
+
+1. e4 e5 2. f4 exf4 3. Nf3 d6 4. d4 Bg4 5. Bc4 Ne7 6. Bxf4 d5 7. exd5 Nxd5 8.
+Bxd5 Qxd5 9. O-O Be7 10. Nc3 Qc6 11. Qe1 Bxf3 12. Rxf3 Nd7 13. Re3 Qf6 14. Nd5
+Qxd4 15. Nxe7 Kf8 16. Bg3 Qxb2 17. Nd5 Qd4 18. Rd1 Qc5 19. Nxc7 Rc8 20. Bd6+
+Qxd6 21. Rxd6 Rxc7 22. Re8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "minhle10"]
+[Black "CipiLaChaloupe"]
+[Result "1-0"]
+[WhiteElo "861"]
+[BlackElo "858"]
+[TimeControl "180"]
+[EndTime "17:57:10 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 d5 2. e3 Nc6 3. Nf3 Nf6 4. Bb5 Bd7 5. Bxc6 Bxc6 6. Ne5 e6 7. O-O Bd6 8. f4
+Bxe5 9. fxe5 Ne4 10. Nd2 O-O 11. Nxe4 dxe4 12. c3 Bb5 13. Rf4 Bc6 14. Bd2 Qg5
+15. Qg4 Qe7 16. b3 f6 17. exf6 Rxf6 18. Rxf6 Qxf6 19. Rf1 Qh6 20. c4 Rd8 21. Kf2
+Rf8+ 22. Ke2 Rxf1 23. Kxf1 Qxh2 24. Qxe6+ Kf8 25. Qc8+ Kf7 26. Qxc7+ Kg6 27.
+Qxh2 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "RottenTomato13"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "846"]
+[BlackElo "869"]
+[TimeControl "180"]
+[EndTime "18:01:10 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 d6 4. O-O Nf6 5. c3 Nxe4 6. d3 Nf6 7. Bg5 Be7 8. Re1
+O-O 9. b4 a6 10. a4 Bg4 11. Bxf6 Bxf6 12. Na3 d5 13. Bb3 Re8 14. h3 Bh5 15. b5
+axb5 16. axb5 Nb8 17. c4 e4 18. dxe4 dxe4 19. Qxd8 Rxd8 20. Rxe4 Bxf3 21. gxf3
+Bxa1 22. Nc2 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.24"]
+[Round "-"]
+[White "minhle10"]
+[Black "SergioGBrenes"]
+[Result "0-1"]
+[WhiteElo "860"]
+[BlackElo "830"]
+[TimeControl "180"]
+[EndTime "18:06:55 PDT"]
+[Termination "SergioGBrenes won on time"]
+
+1. d4 d5 2. e3 Nc6 3. Nf3 Bf5 4. Bb5 e6 5. Ne5 Ne7 6. Qh5 g6 7. Qf3 f6 8. Nxc6
+Nxc6 9. c4 a6 10. Ba4 Bb4+ 11. Bd2 O-O 12. Bxc6 bxc6 13. Bxb4 Re8 14. Bc5 Rb8
+15. b3 e5 16. dxe5 Rxe5 17. O-O d4 18. exd4 Re4 19. Nd2 Re6 20. Rfe1 Qe8 21. h4
+Rxe1+ 22. Rxe1 Qxe1+ 23. Kh2 Qxd2 24. Qxc6 Qxf2 25. Qd5+ Kg7 26. h5 Qh4+ 27. Kg1
+Qe1+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.27"]
+[Round "-"]
+[White "minhle10"]
+[Black "PradaProcess"]
+[Result "1-0"]
+[WhiteElo "867"]
+[BlackElo "809"]
+[TimeControl "300"]
+[EndTime "21:44:39 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 Nf6 2. e3 e6 3. Nf3 d5 4. Ne5 a6 5. c4 c6 6. c5 Nfd7 7. Qf3 f6 8. Qh5+ g6
+9. Nxg6 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.27"]
+[Round "-"]
+[White "koluvulaprashanth"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "881"]
+[BlackElo "859"]
+[TimeControl "300"]
+[EndTime "21:49:27 PDT"]
+[Termination "koluvulaprashanth won - game abandoned"]
+
+1. e4 e5 2. d4 d6 3. dxe5 dxe5 4. Qxd8+ Kxd8 5. Nf3 Nc6 6. Bb5 Nf6 7. Bxc6 bxc6
+8. Nxe5 Bd6 9. Nxf7+ Ke7 10. Nxh8 Bd7 11. Bg5 Rxh8 12. Bxf6+ Kxf6 13. O-O Be5
+14. c3 Rb8 15. Nd2 Rxb2 16. Nc4 Bxc3 17. Nxb2 Bxb2 18. Rab1 Be5 19. Rb7 a5 20.
+Rd1 Ke6 21. Ra7 Bc3 22. Rd3 Bb4 23. a3 Bxa3 24. Rxa3 c5 25. R7xa5 c4 26. Rc3 Bc6
+27. Rxc4 Bxe4 28. Rxe4+ Kd6 29. Rd4+ Kc6 30. Rc4+ Kb6 31. Rac5 Kb7 32. Rxc7+ Kb6
+33. Rxg7 Kb5 34. Rc1 Kb4 35. Rxh7 Kb3 36. Rb7+ Ka2 37. Rc8 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.27"]
+[Round "-"]
+[White "minhle10"]
+[Black "odracirzerdax"]
+[Result "0-1"]
+[WhiteElo "853"]
+[BlackElo "940"]
+[TimeControl "300"]
+[EndTime "22:00:01 PDT"]
+[Termination "odracirzerdax won by checkmate"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 e6 4. Ne5 Nbd7 5. Bb5 c6 6. Ba4 Bd6 7. Nd2 Nxe5 8.
+dxe5 Bxe5 9. f4 Bd6 10. b3 b5 11. Bxb5 cxb5 12. Bb2 O-O 13. Qe2 Qd7 14. Bxf6
+gxf6 15. Qg4+ Kh8 16. O-O-O Rg8 17. Qh5 Ba3+ 18. Kb1 Qc7 19. Qh6 Qc3 20. Qg6
+Qb2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2022.08.27"]
+[Round "-"]
+[White "Ohoh88"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "866"]
+[BlackElo "862"]
+[TimeControl "300"]
+[EndTime "22:06:27 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 d5 2. c4 dxc4 3. e3 e6 4. Bxc4 Nf6 5. a3 Be7 6. Nf3 O-O 7. O-O c6 8. Bd3
+c5 9. Qc2 b6 10. Be4 Nd5 11. Bxh7+ Kh8 12. Be4 Bb7 13. Nc3 f5 14. Nxd5 exd5 15.
+Bd3 c4 16. Be2 Qd6 17. Ne5 Bd8 18. Bh5 Bc7 19. Ng6+ Kg8 20. Nxf8 Kxf8 21. Qxf5+
+Ke7 22. Qf7+ Kd8 23. f3 Qxh2+ 24. Kf2 Bg3+ 25. Ke2 Qxg2+ 26. Kd1 Qxf1+ 27. Kc2
+Qd3# 0-1

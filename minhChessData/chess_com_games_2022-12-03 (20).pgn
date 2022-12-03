@@ -1,0 +1,946 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "pavankumar2020"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "651"]
+[BlackElo "596"]
+[TimeControl "300"]
+[EndTime "10:07:13 PST"]
+[Termination "minhle10 won on time"]
+
+1. e3 b6 2. Qf3 Bb7 3. Qf4 c6 4. Nh3 g6 5. Ng5 f6 6. Qd4 Bg7 7. b3 c5 8. Qc3 e5
+9. Nh3 d5 10. Bb5+ Bc6 11. Be2 d4 12. exd4 Bxg2 13. Bb5+ Nd7 14. Rg1 Bxh3 15.
+Bc6 Rc8 16. Bb7 Rc7 17. Bd5 f5 18. Qc4 exd4 19. Bf7+ Kf8 20. Qe6 Qe7 21. Qxe7+
+Kxe7 22. Bd5 Ngf6 23. Bc4 Ne5 24. Ba6 Nf3+ 25. Kd1 Nxg1 26. Na3 Kd6 27. Nc4+ Kd7
+28. Ne5+ Kd6 29. Nc4+ Kd5 30. d3 Re8 31. Bf4 Rce7 32. Kc1 Re1+ 33. Kb2 Ng4 34.
+Rxe1 Rxe1 35. Bb7+ Ke6 36. Bc8+ Kf7 37. Nd6+ Ke7 38. Nb7 Nxf2 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "chessboii59"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "582"]
+[BlackElo "604"]
+[TimeControl "300"]
+[EndTime "10:11:00 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 b6 2. Bf4 Bb7 3. e3 g6 4. Bd3 Bg7 5. Nf3 e6 6. c3 d5 7. O-O c5 8. h3 Ne7
+9. Ne5 f6 10. Nf3 e5 11. dxe5 fxe5 12. Bxe5 Bxe5 13. Nxe5 c4 14. Be2 Nf5 15. Re1
+b5 16. Nd2 a6 17. Ndf3 O-O 18. Ng5 d4 19. Ne6 Qd5 20. Nxf8 Qxg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "Caleb349"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "717"]
+[BlackElo "598"]
+[TimeControl "300"]
+[EndTime "10:15:20 PST"]
+[Termination "Caleb349 won by checkmate"]
+
+1. d4 b6 2. Bf4 Bb7 3. h3 g6 4. e3 Bg7 5. Nf3 e6 6. c3 d5 7. Nbd2 g5 8. Bg3 h6
+9. Bd3 f5 10. Qe2 f4 11. exf4 gxf4 12. Bxf4 Nd7 13. O-O-O Qf6 14. Be5 Qf7 15.
+Bxc7 Ndf6 16. Be5 O-O-O 17. g4 Nd7 18. Ba6 Bxa6 19. Qxa6# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "minhle10"]
+[Black "lesoies198"]
+[Result "1-0"]
+[WhiteElo "609"]
+[BlackElo "700"]
+[TimeControl "300"]
+[EndTime "10:21:59 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. g3 c6 2. Bg2 d5 3. b3 f6 4. Bb2 e5 5. e3 Ne7 6. d4 e4 7. c4 Be6 8. Nc3 g5 9.
+cxd5 Bxd5 10. Bxe4 Bxe4 11. Nxe4 Nd5 12. Nf3 Bb4+ 13. Nfd2 Bc3 14. Nxc3 Nxc3 15.
+Bxc3 Qd5 16. e4 Qe6 17. Qh5+ Kd7 18. O-O Na6 19. Rfe1 Rag8 20. d5 cxd5 21. f3
+Qb6+ 22. Kg2 Qc5 23. Rac1 Qa3 24. Qg4+ Ke8 25. Bxf6 Qxa2 26. Bxh8 Qxd2+ 27. Kg1
+Rxh8 28. exd5+ Kd8 29. Qf5 Qd4+ 30. Kf1 h6 31. Rc8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "rati_kasparov"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "443"]
+[BlackElo "614"]
+[TimeControl "300"]
+[EndTime "10:28:44 PST"]
+[Termination "minhle10 won by resignation"]
+
+1. b4 b6 2. d4 Bb7 3. e4 Bxe4 4. f3 Bb7 5. Nc3 g6 6. g4 Bg7 7. h3 e6 8. Nge2 c5
+9. bxc5 bxc5 10. dxc5 Bxf3 11. Rg1 Bxe2 12. Qxe2 Bxc3+ 13. Bd2 Bxa1 14. Qd1 Bd4
+15. Rg2 Bxc5 16. Re2 d5 17. Rg2 Nf6 18. Bb5+ Nbd7 19. Bc3 Rb8 20. Bxf6 Qxf6 21.
+Bd3 Qh4+ 22. Rf2 Bxf2+ 23. Ke2 Ne5 24. Qf1 Bd4 25. Qf4 Rb4 26. Qxe5 Bxe5 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "minhle10"]
+[Black "ramtintavakkoli"]
+[Result "0-1"]
+[WhiteElo "606"]
+[BlackElo "637"]
+[TimeControl "300"]
+[EndTime "10:36:00 PST"]
+[Termination "ramtintavakkoli won by resignation"]
+
+1. g3 e6 2. Bg2 Qf6 3. b3 Qxa1 4. c3 Qxb1 5. d3 Qxa2 6. c4 Qa5+ 7. Bd2 Qh5 8.
+Bf3 Qf5 9. g4 Qf6 10. g5 Qd8 11. Bc3 h6 12. h4 hxg5 13. Nh3 gxh4 14. Ng5 Qxg5
+15. Bd2 Qd8 16. Be4 Nf6 17. Bf3 Na6 18. Bg5 h3 19. e4 Nb4 20. Qd2 Nc6 21. e5
+Nxe5 22. Qf4 Nxd3+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "Alexxiiss69"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "619"]
+[BlackElo "615"]
+[TimeControl "300"]
+[EndTime "10:38:46 PST"]
+[Termination "minhle10 won - game abandoned"]
+
+1. e4 b6 2. Nc3 Bb7 3. Nd5 e6 4. Nf4 d5 5. Qh5 g6 6. Nxg6 fxg6 7. Qe5 Nf6 8. d4
+Bg7 9. Bb5+ c6 10. Bg5 cxb5 11. Bxf6 Bxf6 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.01.31"]
+[Round "-"]
+[White "MrBegovic"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "547"]
+[BlackElo "622"]
+[TimeControl "300"]
+[EndTime "10:49:08 PST"]
+[Termination "minhle10 won on time"]
+
+1. e4 b6 2. Qh5 Bb7 3. Nc3 g6 4. Qe5 Nf6 5. d4 d5 6. Nf3 Bg7 7. Bb5+ c6 8. Ba4
+Nh5 9. g4 Bxe5 10. gxh5 b5 11. Bb3 Bd6 12. O-O b4 13. Na4 Ba6 14. Rd1 gxh5 15.
+exd5 cxd5 16. Bxd5 Be2 17. Re1 Bxf3 18. Bxf3 Qd7 19. Bxa8 Qxa4 20. b3 Qd7 21.
+Bb2 Rg8+ 22. Kf1 Qg4 23. Rad1 Bxh2 24. Rd2 Qg1+ 25. Ke2 Qg4+ 26. Kf1 f5 27. f3
+Qg2+ 28. Rxg2 Rxg2 29. Kxg2 Bd6 30. Bd5 Nd7 31. f4 Bxf4 32. Kf3 Bh6 33. Bc1 Bg7
+34. Bh6 Bxh6 35. Bc6 e5 36. dxe5 Ke7 37. Bxd7 Kxd7 38. Re3 f4 39. Re4 Ke6 40.
+Kf2 h4 41. Kg2 h3+ 42. Kxh3 f3 43. Kh2 f2 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.01"]
+[Round "-"]
+[White "JhyndarX"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "663"]
+[BlackElo "631"]
+[TimeControl "300"]
+[EndTime "7:43:00 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 b6 2. d3 Bb7 3. Bf4 g6 4. Qf3 Bg7 5. d4 d6 6. Ne2 e5 7. dxe5 dxe5 8. Nbc3
+exf4 9. Rd1 Qe7 10. Nxf4 g5 11. Nh5 Bxc3+ 12. Ke2 Qxe4+ 13. Qxe4+ Bxe4 14. bxc3
+Bxc2 15. Rc1 Ba4 16. g3 Bb5+ 17. Ke1 Bc6 18. Rg1 Nd7 19. Bd3 O-O-O 20. f4 Nc5
+21. Bc4 Nd3+ 22. Ke2 Nxc1+ 23. Rxc1 Nh6 24. Ba6+ Bb7 25. Bxb7+ Kxb7 26. Rd1
+Rhe8+ 27. Kf3 Rxd1 28. Kf2 Red8 29. Kf3 R8d3+ 30. Ke2 R1d2+ 31. Ke1 Rxa2 32.
+fxg5 Ra1+ 33. Ke2 Rxc3 34. Kd2 Rca3 35. gxh6 R1a2+ 36. Kc1 Ra1+ 37. Kb2 c5 38.
+Nf4 b5 39. Nd5 b4 40. Nxb4 cxb4 41. g4 Rh1 42. h4 Rh2+ 43. Kb1 b3 44. Kc1 Raa2
+45. Kb1 Rh1# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.09"]
+[Round "-"]
+[White "joek_7"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "1017"]
+[BlackElo "631"]
+[TimeControl "180"]
+[EndTime "16:19:12 PST"]
+[Termination "joek_7 won on time"]
+
+1. d4 b6 2. c4 Bb7 3. Nc3 g6 4. e3 Bg7 5. Nf3 e6 6. Be2 d5 7. cxd5 exd5 8. O-O
+c5 9. b3 Nf6 10. h3 O-O 11. Re1 Ne4 12. Nb5 a6 13. Na3 b5 14. Nc2 Nc3 15. Qd2 b4
+16. Bb2 cxd4 17. exd4 Nc6 18. Bxc3 bxc3 19. Qxc3 Rc8 20. Rac1 Nxd4 21. Qd3 Nxc2
+22. Rxc2 Rxc2 23. Qxc2 d4 24. Rd1 Bxf3 25. Bxf3 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.10"]
+[Round "-"]
+[White "TomatoCultivator12"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "517"]
+[BlackElo "637"]
+[TimeControl "180"]
+[EndTime "7:46:28 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 b6 2. Bf4 Bb7 3. e3 e6 4. c3 d5 5. Bd3 g6 6. Nd2 Bg7 7. h3 h6 8. Ngf3 g5
+9. Bg3 f5 10. Bb5+ Nc6 11. Bd3 a6 12. O-O g4 13. hxg4 fxg4 14. Bh4 Bf6 15. Bg6+
+Kd7 16. Ne5+ Nxe5 17. dxe5 Bxh4 18. e4 g3 19. Nf3 gxf2+ 20. Kh1 Kc8 21. exd5
+Bxd5 22. Qd4 Ne7 23. Nxh4 Nf5 24. Nxf5 exf5 25. Bxf5+ Kb8 26. Be4 Qh4# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.10"]
+[Round "-"]
+[White "minhle10"]
+[Black "Klay11Thompson"]
+[Result "0-1"]
+[WhiteElo "631"]
+[BlackElo "763"]
+[TimeControl "180"]
+[EndTime "14:06:57 PST"]
+[Termination "Klay11Thompson won by checkmate"]
+
+1. g3 d5 2. Bg2 e5 3. b3 Nf6 4. Bb2 Nc6 5. e3 Bd6 6. d4 e4 7. Nh3 Bg4 8. O-O
+Bxd1 9. Rxd1 O-O 10. Nd2 Ng4 11. f3 exf3 12. Bxf3 Nxe3 13. Re1 Nxc2 14. Bxd5
+Nxa1 15. Rxa1 Bxg3 16. hxg3 Qxd5 17. Nf4 Qd6 18. Nc4 Qh6 19. d5 Nb4 20. Bc3 Nc2
+21. Rc1 b5 22. Rxc2 bxc4 23. bxc4 g5 24. Ne2 f5 25. Bd2 Rae8 26. Nd4 f4 27. g4
+Qh3 28. Nf5 Qxg4+ 29. Kf2 Re2+ 30. Kf1 Qg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.13"]
+[Round "-"]
+[White "JBiz510"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "622"]
+[BlackElo "639"]
+[TimeControl "300"]
+[EndTime "21:51:08 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 b6 2. e5 Bb7 3. d4 g6 4. Nf3 Bg7 5. Be2 e6 6. c3 d5 7. Na3 c5 8. dxc5 bxc5
+9. Bg5 f6 10. Bf4 fxe5 11. Nxe5 Ne7 12. Nb5 a6 13. Na3 Nec6 14. Nxc6 Bxc6 15.
+Bxb8 Rxb8 16. Bxa6 O-O 17. O-O Qg5 18. b4 d4 19. cxd4 Qxg2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.13"]
+[Round "-"]
+[White "EggsBene"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "696"]
+[BlackElo "648"]
+[TimeControl "300"]
+[EndTime "10:32:08 PST"]
+[Termination "minhle10 won by resignation"]
+
+1. d4 b6 2. e4 Bb7 3. Nc3 g6 4. Bd3 Bg7 5. Bd2 e6 6. Nf3 d5 7. O-O dxe4 8. Bxe4
+Bxe4 9. Nxe4 f5 10. Nc3 c5 11. dxc5 bxc5 12. Bg5 Nf6 13. Qxd8+ Kxd8 14. Bxf6+
+Bxf6 15. Nb5 a6 16. Rad1+ Nd7 17. Nd6 Rf8 18. Rfe1 Ke7 19. g3 Rab8 20. b3 Rb6
+21. c3 Rxd6 22. Rxd6 Kxd6 23. b4 Bxc3 24. Re2 cxb4 25. Nd2 Ne5 26. Nb3 h5 27.
+Na5 Rf7 28. Nb7+ Rxb7 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.02.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "omidreza_n"]
+[Result "1-0"]
+[WhiteElo "657"]
+[BlackElo "679"]
+[TimeControl "300"]
+[EndTime "7:30:31 PST"]
+[Termination "minhle10 won by checkmate"]
+
+1. g3 e6 2. Bg2 g6 3. b3 Bg7 4. c3 Nc6 5. Bb2 b6 6. e3 Bb7 7. d4 Nge7 8. c4 O-O
+9. Qc2 d5 10. cxd5 Nxd5 11. Ne2 Ndb4 12. Qc3 a5 13. Bxc6 Bxc6 14. a3 Na6 15. b4
+Bxh1 16. Nd2 axb4 17. axb4 Qd6 18. Ne4 Qd5 19. Nd2 Be4 20. f3 Bxf3 21. Nxf3 Qxf3
+22. Ng1 Qh1 23. O-O-O Qxh2 24. Nf3 Qxg3 25. d5 Qxf3 26. Qxg7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "Askorobogat"]
+[Result "0-1"]
+[WhiteElo "647"]
+[BlackElo "627"]
+[TimeControl "300"]
+[EndTime "15:33:21 PDT"]
+[Termination "Askorobogat won - game abandoned"]
+
+1. g3 d5 2. Bg2 e5 3. b3 e4 4. Bb2 c5 5. e3 f5 6. c4 dxc4 7. bxc4 Nc6 8. d3 Qa5+
+9. Bc3 Nb4 10. dxe4 fxe4 11. Bxe4 Be6 12. Qh5+ Bf7 13. Qe5+ Ne7 14. Bxb7 Rb8 15.
+Qxb8+ Qd8 16. Qe5 Nc2+ 17. Kf1 Nxa1 18. Bc6+ Qd7 19. Bxd7+ Kxd7 20. Qxc5 Nc2 21.
+Qxa7+ Ke6 22. Qa6+ Kf5 23. Qa5+ Kg6 24. h4 Nf5 25. Qxf5+ Kxf5 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "ZiobroTyKuxwo"]
+[Result "1-0"]
+[WhiteElo "655"]
+[BlackElo "601"]
+[TimeControl "300"]
+[EndTime "15:58:26 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. g3 e5 2. Bg2 d5 3. b3 c6 4. Bb2 Ne7 5. Bxe5 Nd7 6. Bb2 f6 7. e3 Nc5 8. d4 Ne6
+9. Nf3 g5 10. O-O g4 11. Nh4 Bh6 12. Qxg4 Qd6 13. Qh5+ Kd7 14. Qxh6 c5 15. Qxf6
+Rf8 16. Qh6 cxd4 17. exd4 b6 18. Qxh7 Ba6 19. Ba3 Qc6 20. Qxe7+ Kc8 21. Re1 Qxc2
+22. Qxe6+ Kb7 23. Qxd5+ Kc8 24. Qxa8+ Kc7 25. Qxf8 Qd3 26. Qd6+ Kc8 27. Rc1+ 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.27"]
+[Round "-"]
+[White "seth_for_truth"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "655"]
+[BlackElo "665"]
+[TimeControl "300"]
+[EndTime "14:55:39 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 b6 2. d4 Bb7 3. d5 c6 4. Nc3 Nf6 5. Bc4 e6 6. Bg5 h6 7. Bh4 g5 8. Bg3 exd5
+9. exd5 cxd5 10. Nxd5 Bxd5 11. Bxd5 Nxd5 12. Qxd5 Qe7+ 13. Ne2 Qb4+ 14. c3 Qxb2
+15. Rd1 Bb4 16. Qxd7+ Nxd7 17. Be5 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.27"]
+[Round "-"]
+[White "Gandalf150984"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "631"]
+[BlackElo "655"]
+[TimeControl "300"]
+[EndTime "14:58:48 PDT"]
+[Termination "Gandalf150984 won by checkmate"]
+
+1. e4 b6 2. d4 Bb7 3. d5 c6 4. Nc3 Nf6 5. e5 Nxd5 6. Nxd5 cxd5 7. Nf3 d6 8. exd6
+exd6 9. Qe2+ Be7 10. Bg5 Nc6 11. Bxe7 Nxe7 12. Ng5 O-O 13. Qd3 Nf5 14. Qxf5 Re8+
+15. Be2 Qe7 16. Qxh7+ Kf8 17. Qh8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.27"]
+[Round "-"]
+[White "minhle10"]
+[Black "Tiago262018"]
+[Result "1-0"]
+[WhiteElo "664"]
+[BlackElo "666"]
+[TimeControl "300"]
+[EndTime "15:03:01 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. g3 e5 2. Bg2 Bc5 3. b3 Qf6 4. e3 Nc6 5. Bb2 Nb4 6. f4 exf4 7. Bxf6 gxf6 8. d4
+Bb6 9. c3 Nc6 10. exf4 Nh6 11. Qe2+ Ne7 12. Qh5 Nhf5 13. Nd2 Ne3 14. Rc1 Nxg2+
+15. Kd1 Ne3+ 16. Ke2 N3f5 17. g4 Ng7 18. Qb5 a6 19. Qb4 a5 20. Qb5 Ra6 21. Kf2
+c6 22. Qc4 d5 23. Qe2 f5 24. Re1 fxg4 25. Qxe7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.27"]
+[Round "-"]
+[White "MarceUshu"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "728"]
+[BlackElo "657"]
+[TimeControl "300"]
+[EndTime "15:11:00 PDT"]
+[Termination "MarceUshu won - game abandoned"]
+
+1. e4 b6 2. d4 Bb7 3. d5 c6 4. f4 cxd5 5. exd5 e6 6. Nc3 Bb4 7. Bd2 Qh4+ 8. g3
+Qe7 9. a3 Bc5 10. dxe6 fxe6 11. Nb5 d6 12. Qh5+ g6 13. Qg4 Bxh1 14. O-O-O a6 15.
+Nc7+ Qxc7 16. Qxe6+ Ne7 17. Bc4 Bxg1 18. Qf7+ Kd8 19. Re1 Bd5 20. Bxd5 Nxd5 21.
+Qxd5 Nc6 22. Qg5+ Ne7 23. Bb4 h6 24. Qf6 Bf2 25. Qxh8+ Kd7 26. Qxa8 Bxe1 27.
+Bxe1 a5 28. Qe4 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.28"]
+[Round "-"]
+[White "brockbritton"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "1119"]
+[BlackElo "657"]
+[TimeControl "300"]
+[EndTime "15:22:59 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 b6 2. Qh5 Bb7 3. d4 Bxe4 4. Qe5 Bb7 5. c3 f6 6. Qd5 Bxd5 7. Nd2 e5 8. Bc4
+Bxc4 9. Nxc4 d5 10. Ne3 exd4 11. cxd4 Bb4+ 12. Bd2 Bxd2+ 13. Kxd2 Nc6 14. Rc1
+Nxd4 15. Kd3 c5 16. Ne2 c4+ 17. Kxd4 b5 18. Nxd5 Ne7 19. Nf4 g5 20. Ne6 Qxd5+
+21. Kc3 Qxe6 22. Rce1 Qd6 23. Re4 a5 24. Rhe1 Qd3# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.28"]
+[Round "-"]
+[White "minhle10"]
+[Black "mostafamaan"]
+[Result "1-0"]
+[WhiteElo "665"]
+[BlackElo "626"]
+[TimeControl "300"]
+[EndTime "15:48:23 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. b3 g6 2. Bb2 Bg7 3. Bxg7 f6 4. Bxh8 f5 5. g3 e6 6. Bb2 Qe7 7. Bg2 b6 8. Bxa8
+1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.28"]
+[Round "-"]
+[White "minhle10"]
+[Black "lhulhier"]
+[Result "1-0"]
+[WhiteElo "673"]
+[BlackElo "634"]
+[TimeControl "300"]
+[EndTime "15:55:27 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. b3 e5 2. Bb2 f6 3. g3 d5 4. Bg2 Be6 5. e3 d4 6. f4 Bd5 7. e4 Bc6 8. fxe5 f5
+9. d3 Bc5 10. Qh5+ g6 11. Qe2 Ne7 12. Nd2 O-O 13. O-O-O Na6 14. h4 Nb4 15. Kb1
+a5 16. a3 Na6 17. h5 Nb8 18. hxg6 hxg6 19. exf5 Nxf5 20. g4 Ng3 21. Qe1 Nxh1 22.
+Bxc6 bxc6 23. Ngf3 a4 24. Qxh1 axb3 25. cxb3 Bxa3 26. Ng5 Bb4 27. Qh7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.03.28"]
+[Round "-"]
+[White "MrGravitas"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "657"]
+[BlackElo "664"]
+[TimeControl "300"]
+[EndTime "16:03:11 PDT"]
+[Termination "MrGravitas won by checkmate"]
+
+1. e4 b6 2. d4 Bb7 3. Nc3 g6 4. Nf3 Bg7 5. Bc4 e6 6. Ng5 d5 7. exd5 exd5 8. Bxd5
+Qxd5 9. Nxd5 Bxd5 10. Qe2+ Ne7 11. b3 Bxd4 12. Rb1 Bxg2 13. Rg1 Bd5 14. c4 Bc6
+15. Rg4 Bf6 16. Ne6 fxe6 17. Qxe6 Bc3+ 18. Bd2 Bxd2+ 19. Kxd2 Nd7 20. Re1 O-O-O
+21. Qxe7 Rhe8 22. Qxe8 Rxe8 23. Rxe8+ Kb7 24. Rf4 Nb8 25. Rh8 Nd7 26. Rxh7 g5
+27. Rf5 g4 28. Rg5 Nf8 29. Rh8 Ne6 30. Rxg4 Nd4 31. Rgg8 Nf3+ 32. Kc3 Ne5 33.
+Rb8+ Ka6 34. Rbc8 Kb7 35. Rhe8 Bd7 36. Rxe5 Bxc8 37. h4 a5 38. h5 Bg4 39. h6 Kc6
+40. h7 Kd6 41. Rd5+ Ke6 42. h8=Q c6 43. Qh6+ Ke7 44. Qg7+ Ke6 45. Qxg4+ Ke7 46.
+Qg6 cxd5 47. cxd5 b5 48. f4 a4 49. bxa4 bxa4 50. Qe4+ Kd6 51. f5 Kc5 52. f6 Kd6
+53. f7 Kc5 54. f8=Q+ Kb5 55. d6 a3 56. d7 Kb6 57. Qff5 Ka7 58. d8=Q Ka6 59.
+Qee6+ Kb7 60. Qff7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.04"]
+[Round "-"]
+[White "bigstickboy"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "637"]
+[BlackElo "672"]
+[TimeControl "300"]
+[EndTime "11:09:48 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 b6 2. Nf3 Bb7 3. Nc3 g6 4. d4 Bg7 5. Bc4 e6 6. O-O d5 7. Bd3 f5 8. e5 Nd7
+9. Bg5 Ndf6 10. Qd2 h6 11. Bf4 g5 12. Bxg5 hxg5 13. exf6 Bxf6 14. Ne5 Bxe5 15.
+dxe5 d4 16. Nb5 a6 17. Nd6+ cxd6 18. exd6 Qxd6 19. Qxg5 Qd5 20. f3 Qe5 21. f4
+Qd5 22. Rae1 Qxa2 23. b3 Qa5 24. Rxe6+ Kd7 25. Qe7+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.04"]
+[Round "-"]
+[White "minhle10"]
+[Black "OsamaYasien1"]
+[Result "0-1"]
+[WhiteElo "664"]
+[BlackElo "689"]
+[TimeControl "300"]
+[EndTime "11:42:44 PDT"]
+[Termination "OsamaYasien1 won by checkmate"]
+
+1. b3 e5 2. Bb2 d6 3. g3 Be7 4. Bg2 c6 5. e3 Nf6 6. d4 Bg4 7. f3 Bc8 8. c4 exd4
+9. exd4 d5 10. cxd5 Nxd5 11. Nc3 Ne3 12. Qd2 Nxg2+ 13. Qxg2 Qxd4 14. Nge2 Qe5
+15. f4 Qe3 16. Bc1 Qd3 17. g4 Bb4 18. a3 Bxc3+ 19. Nxc3 Qxc3+ 20. Bd2 Qxa1+ 21.
+Ke2 Qxa3 22. Qe4+ Be6 23. f5 Qa6+ 24. Kd1 O-O 25. fxe6 f6 26. e7 Re8 27. Qe6+
+Kh8 28. Qf7 Qa1+ 29. Ke2 Qe5+ 30. Kd1 Qxe7 31. Qxe7 Rxe7 32. Bb4 Rd7+ 33. Kc2 a5
+34. Bc5 a4 35. Re1 Na6 36. bxa4 Nxc5 37. a5 b5 38. a6 Rdd8 39. Rd1 Rxd1 40. Kxd1
+Rxa6 41. Ke2 b4 42. Kd2 b3 43. Kc3 Rb6 44. Kb2 Nd3+ 45. Kb1 b2 46. h3 Ne1 47. h4
+Nc2 48. g5 Na3+ 49. Ka2 b1=Q+ 50. Kxa3 Ra6# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.07"]
+[Round "-"]
+[White "fayssalbaraket"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "703"]
+[BlackElo "674"]
+[TimeControl "300"]
+[EndTime "13:52:36 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. d4 b6 2. e4 Bb7 3. Nc3 g6 4. f3 Bg7 5. Be3 e6 6. Bc4 d5 7. exd5 exd5 8. Bd3
+c5 9. Qe2 Ne7 10. dxc5 d4 11. Bg5 f6 12. Bb5+ Bc6 13. Bxc6+ Nxc6 14. Nd5 fxg5
+15. Nxe7 Nxe7 16. cxb6 axb6 17. Nh3 O-O 18. O-O Nf5 19. Nxg5 Re8 20. Qc4+ Kf8
+21. Rae1 Qxg5 22. Rxe8+ Rxe8 23. Qb4+ Re7 24. Re1 Ne3 25. Qd2 b5 26. Qd3 Qxg2#
+0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.07"]
+[Round "-"]
+[White "alceomitilene"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "647"]
+[BlackElo "682"]
+[TimeControl "300"]
+[EndTime "14:01:43 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e4 b6 2. Nf3 Bb7 3. c3 Bxe4 4. d3 Bb7 5. d4 g6 6. g3 Bg7 7. Bg2 e6 8. Bg5 f6
+9. Bf4 g5 10. Be3 g4 11. Nh4 Bxg2 12. Nxg2 d5 13. h3 f5 14. hxg4 fxg4 15. f3 h5
+16. f4 Nf6 17. Nd2 Ne4 18. Nxe4 dxe4 19. Nh4 c5 20. Ng6 Rh7 21. Qd2 Nc6 22.
+O-O-O cxd4 23. Ne5 dxe3 24. Qxe3 Nxe5 25. Rxd8+ Rxd8 26. Qxe4 Nc6 27. Qxh7 Bf8
+28. Qg6+ Ke7 29. f5 exf5 30. Re1+ Kd7 31. Qxf5+ Kc7 32. Qxh5 a5 33. Qxg4 b5 34.
+Qf4+ Bd6 35. Qf7+ Rd7 36. Qf5 Bxg3 37. Re3 Ne7 38. Qc5+ Nc6 39. Rxg3 b4 40. Rg6
+a4 41. Qxc6+ Kd8 42. Rg8+ Ke7 43. Qe4+ Kd6 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "WillianGrigori"]
+[Result "1/2-1/2"]
+[WhiteElo "682"]
+[BlackElo "668"]
+[TimeControl "300"]
+[EndTime "16:00:03 PDT"]
+[Termination "Game drawn by stalemate"]
+
+1. b3 e6 2. Bb2 Nf6 3. g3 g6 4. Bg2 Bg7 5. e3 O-O 6. d4 Nc6 7. h4 d5 8. g4 e5 9.
+g5 Ng4 10. f3 Nxe3 11. Qe2 Nxg2+ 12. Qxg2 Nxd4 13. Nd2 Nxc2+ 14. Kd1 Nxa1 15.
+Bxa1 d4 16. Nc4 e4 17. fxe4 d3 18. Bxg7 Kxg7 19. Qb2+ f6 20. h5 gxh5 21. Rxh5
+Bg4+ 22. Kd2 Bxh5 23. gxf6+ Rxf6 24. e5 Rf2+ 25. Ne2 Rxe2+ 26. Kc3 Rxb2 27. Nxb2
+d2 28. e6 Qf6+ 29. Kxd2 Qxe6 30. a3 Rd8+ 31. Kc3 Qc6+ 32. Nc4 Bf7 33. a4 h5 34.
+a5 h4 35. a6 bxa6 36. Kb2 Bxc4 37. bxc4 Qxc4 38. Ka3 Rb8 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "Allesla"]
+[Result "1-0"]
+[WhiteElo "691"]
+[BlackElo "707"]
+[TimeControl "300"]
+[EndTime "16:10:49 PDT"]
+[Termination "minhle10 won on time"]
+
+1. b3 e5 2. Bb2 d6 3. g3 f6 4. Bg2 Nc6 5. e3 d5 6. d4 exd4 7. exd4 Qe7+ 8. Ne2
+Qb4+ 9. c3 Qd6 10. O-O g5 11. Ba3 Qe6 12. Re1 Bxa3 13. Nf4 Qxe1+ 14. Qxe1+ Nge7
+15. Nxd5 Bb2 16. Nxf6+ Kd8 17. Nd2 Bxa1 18. Qxa1 Bd7 19. Nxd7 Kxd7 20. Bh3+ Kd6
+21. Ne4+ Kd5 22. Nf6+ Kd6 23. Qd1 Nd5 24. Nxd5 Kxd5 25. c4+ Kd6 26. c5+ Kd5 27.
+Bg2+ Ke6 28. Qg4+ Kf6 29. Qf3+ Kg6 30. d5 Ne5 31. Qe4+ Kf6 32. Qd4 Rhe8 33. f4
+gxf4 34. gxf4 Rad8 35. fxe5+ Rxe5 36. b4 c6 37. d6 Ke6 38. Bh3+ Kf6 39. Qh4+
+Rg5+ 40. Bg2 Kf5 41. Qxh7+ Rg6 42. Qxb7 Rdg8 43. Qxc6 Rxg2+ 44. Qxg2 Rxg2+ 45.
+Kxg2 Ke6 46. b5 Kd7 47. h4 Ke6 48. b6 axb6 49. cxb6 Kxd6 50. b7 Kc7 51. h5 Kxb7
+52. h6 Kb6 53. h7 Kb5 54. h8=Q Kb4 55. Qa1 Kc4 56. a3 Kb5 57. a4+ Ka5 58. Qd1
+Ka6 59. Qe2+ Ka5 60. Qd2+ Kxa4 61. Qd4+ Kb3 62. Kf2 Ka3 63. Ke3 Kb3 64. Kd3 Ka3
+65. Kc3 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "yam1232"]
+[Result "0-1"]
+[WhiteElo "684"]
+[BlackElo "734"]
+[TimeControl "300"]
+[EndTime "16:15:34 PDT"]
+[Termination "yam1232 won by checkmate"]
+
+1. g3 d5 2. Bg2 e5 3. b3 e4 4. Bb2 f5 5. e3 Nf6 6. d4 c5 7. f3 cxd4 8. Bxd4 Nc6
+9. fxe4 fxe4 10. Nc3 Nxd4 11. exd4 Be6 12. Bh3 Bxh3 13. Nxh3 Qc7 14. Qd2 Bb4 15.
+Qg5 Bxc3+ 16. Kf1 Bxa1 17. Qxd5 Nxd5 18. Kf2 Qxc2+ 19. Kf1 Qc1+ 20. Kg2 Qc2+ 21.
+Nf2 Bxd4 22. Rf1 Bxf2 23. Rxf2 Qd3 24. h4 e3 25. Rf1 e2 26. Re1 Qd2 27. Kf2 Rf8+
+28. Kg2 Qxe1 29. Kh3 Qf1+ 30. Kh2 e1=Q 31. g4 Qef2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "mikeyP19"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "716"]
+[BlackElo "693"]
+[TimeControl "300"]
+[EndTime "16:50:58 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 b6 2. e5 Bb7 3. d4 g6 4. Nf3 Bg7 5. g3 e6 6. Bg2 Ba6 7. Bg5 f6 8. exf6
+Bxf6 9. Bxf6 Nxf6 10. b3 d5 11. Na3 Qd6 12. Qc1 Nc6 13. c4 dxc4 14. bxc4 Nxd4
+15. Nxd4 Qe5+ 16. Ne2 Rd8 17. O-O Ne4 18. Rd1 Rxd1+ 19. Qxd1 Rf8 20. Bxe4 Qxe4
+21. Nc3 Qe5 22. Qe1 Qc5 23. Ne4 Qxa3 24. Nd2 Qc5 25. Ne4 Qxc4 26. Qc3 Qxe4 27.
+Qxc7 Rf7 28. Qxb6 axb6 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "jutente"]
+[Result "1-0"]
+[WhiteElo "700"]
+[BlackElo "638"]
+[TimeControl "300"]
+[EndTime "16:54:55 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. b3 e6 2. Bb2 d5 3. g3 c5 4. Bg2 Nc6 5. e3 Nf6 6. d4 cxd4 7. exd4 Bb4+ 8. c3
+Bd6 9. Ne2 e5 10. O-O exd4 11. cxd4 Bb4 12. a3 Bd6 13. b4 O-O 14. b5 Nb8 15. a4
+Re8 16. Qd3 a6 17. b6 Nbd7 18. a5 Nb8 19. Nbc3 Bd7 20. Nxd5 Nxd5 21. Bxd5 Bc6
+22. Bxc6 Nxc6 23. d5 Nb4 24. Qd4 Nc2 25. Qxg7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "steveystrokes"]
+[Result "1-0"]
+[WhiteElo "707"]
+[BlackElo "664"]
+[TimeControl "300"]
+[EndTime "17:04:58 PDT"]
+[Termination "minhle10 won on time"]
+
+1. g3 e5 2. Bg2 Nf6 3. b3 Bc5 4. Bb2 Ng4 5. e3 Qf6 6. f4 Qb6 7. h3 Nh6 8. Bxe5
+O-O 9. d4 Bb4+ 10. c3 Bd6 11. Bxg7 Kxg7 12. c4 Nc6 13. c5 Qb4+ 14. Nd2 Be7 15.
+a3 Qc3 16. Rc1 Qxe3+ 17. Qe2 Qxd4 18. Ngf3 Qb2 19. a4 Qxc1+ 20. Kf2 Qa3 21. g4
+Bxc5+ 22. Kg3 d5 23. Ng5 Bd7 24. Bxd5 Rae8 25. Nge4 Nd4 26. Qe3 c6 27. Qc3 cxd5
+28. Nxc5 Re2 29. Qxd4+ Kg8 30. Nxd7 Rfe8 31. Nf6+ Kf8 32. Nxe8 Kxe8 33. g5 Nf5+
+34. Kg4 Nxd4 35. f5 Qc1 36. Rxc1 Re4+ 37. Kh5 Kf8 38. g6 Nxf5 39. gxh7 Kg7 40.
+Rf1 Rh4+ 41. Kg5 Kxh7 42. Rxf5 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "higherN"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "676"]
+[BlackElo "698"]
+[TimeControl "300"]
+[EndTime "18:27:36 PDT"]
+[Termination "higherN won by checkmate"]
+
+1. e4 g6 2. Qf3 b6 3. Bc4 Bb7 4. Qxf7# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "minhle10"]
+[Black "higherN"]
+[Result "1-0"]
+[WhiteElo "706"]
+[BlackElo "660"]
+[TimeControl "300"]
+[EndTime "18:35:54 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. b3 e5 2. Bb2 Qf6 3. g3 Bc5 4. e3 Nc6 5. f4 d6 6. d4 Qe6 7. dxc5 dxc5 8. Bc4
+Qd7 9. Nc3 Qxd1+ 10. Rxd1 Na5 11. Bb5+ c6 12. Bc4 Bf5 13. fxe5 Bxc2 14. Rd2 Bg6
+15. Nce2 f6 16. e6 b5 17. b4 bxc4 18. bxa5 Ke7 19. Nf4 h5 20. Rd7+ Ke8 21. Nxg6
+Rh6 22. Rxg7 Ne7 23. Nxe7 Rb8 24. Rg8+ Kxe7 25. Rxb8 Kxe6 26. Rc8 Kd6 27. Ra8
+Kd5 28. Rxa7 Ke4 29. Ke2 h4 30. Re7+ Kd5 31. g4 h3 32. a6 Rh8 33. a7 Kd6 34.
+Bxf6 c3 35. Bxh8 c2 36. Nf3 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.08"]
+[Round "-"]
+[White "lloretp"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "747"]
+[BlackElo "699"]
+[TimeControl "300"]
+[EndTime "18:44:00 PDT"]
+[Termination "lloretp won by checkmate"]
+
+1. e4 g6 2. d4 Bg7 3. e5 b6 4. Bc4 d5 5. Bb3 Bb7 6. Nc3 c5 7. Nf3 Bc6 8. O-O c4
+9. Ba4 b5 10. Nxb5 Bxb5 11. Bxb5+ Nd7 12. Bc6 Qb6 13. Bxa8 Ngf6 14. Bg5 Ne4 15.
+Bxd5 Ndc5 16. Bxc4 Ne6 17. Be3 Qxb2 18. d5 N6g5 19. Bxg5 Nxg5 20. Nxg5 O-O 21.
+Rb1 Qxe5 22. Nf3 Qf4 23. Re1 Qxc4 24. Rxe7 Qxa2 25. Qe1 Qxd5 26. Re8 Qc6 27.
+Rxf8+ Kxf8 28. Rb8+ Qe8 29. Rxe8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.04.23"]
+[Round "-"]
+[White "joek_7"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "939"]
+[BlackElo "696"]
+[TimeControl "300"]
+[EndTime "16:24:16 PDT"]
+[Termination "joek_7 won by checkmate"]
+
+1. e4 b6 2. d4 Bb7 3. d5 g6 4. c4 c6 5. Nc3 Bg7 6. Bd2 cxd5 7. cxd5 e6 8. Bc4
+Ne7 9. Nf3 Bxc3 10. Bxc3 Rg8 11. O-O Nxd5 12. exd5 exd5 13. Bxd5 Bxd5 14. Qxd5
+Nc6 15. Rfe1+ Kf8 16. Ne5 Rg7 17. Nxc6 dxc6 18. Bxg7+ Kxg7 19. Qxc6 Rc8 20. Qb7
+Rc7 21. Qf3 a5 22. h3 Qd6 23. a3 Rc2 24. Rab1 b5 25. Re4 b4 26. Rf4 f5 27. axb4
+axb4 28. Qb7+ Kf6 29. Qxb4 Qxb4 30. Rxb4 g5 31. Re1 h5 32. Rb6+ Kf7 33. b4 g4
+34. Ra1 Rc7 35. b5 g3 36. fxg3 h4 37. Rc6 hxg3 38. Rxc7+ Kf6 39. Rc5 Kg5 40. Ra5
+Kh4 41. b6 f4 42. Rh5# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.20"]
+[Round "-"]
+[White "minhle10"]
+[Black "lalohambrick-day"]
+[Result "1-0"]
+[WhiteElo "707"]
+[BlackElo "704"]
+[TimeControl "300"]
+[EndTime "16:01:10 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. b3 d6 2. Bb2 Bf5 3. g3 e5 4. Bg2 d5 5. Bxe5 f6 6. Bb2 d4 7. Bxb7 Nd7 8. Bxa8
+Qxa8 9. Bxd4 Qxh1 10. f3 Qxg1+ 11. Bxg1 Bb4 12. Bxa7 Ne7 13. a3 Ba5 14. b4 Bb6
+15. Bxb6 cxb6 16. Nc3 O-O 17. e4 Bh3 18. d4 Nc6 19. d5 Nce5 20. Nb5 Nxf3+ 21.
+Qxf3 Re8 22. Nd6 Re5 23. g4 g5 24. Qxh3 b5 25. a4 Nb6 26. axb5 Nxd5 27. Qh6 Nc3
+28. Ra8+ Re8 29. Rxe8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.20"]
+[Round "-"]
+[White "lalohambrick-day"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "693"]
+[BlackElo "717"]
+[TimeControl "300"]
+[EndTime "16:11:31 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e4 b6 2. Bc4 Bb7 3. Qf3 e6 4. d4 f5 5. d5 g6 6. exf5 exf5 7. Qe3+ Ne7 8. f4
+c6 9. Qd4 cxd5 10. Bxd5 Bxd5 11. Qxh8 Bxg2 12. Qxh7 Bxh1 13. Nh3 b5 14. Ng5 Bd5
+15. b3 Qa5+ 16. Bd2 b4 17. c4 Be6 18. a4 bxa3 19. Rxa3 Qb6 20. Nf3 Bxc4 21. b4
+Qe6+ 22. Be3 Qxe3+ 23. Rxe3 Nc6 24. Nbd2 Bb5 25. Qxg6+ Kd8 26. Qf7 Bh6 27. Qf8+
+Bxf8 28. Ne5 Nxb4 29. Rb3 a5 30. Kf2 Rb8 31. Kg3 a4 32. Rxb4 a3 33. Rb1 a2 34.
+Ra1 Ra8 35. Ndf3 Nd5 36. Nd4 Nc3 37. Nxb5 Nxb5 38. Rd1 a1=Q 39. Rxd7+ Ke8 40.
+Rh7 Qg1+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.21"]
+[Round "-"]
+[White "PedroLWC"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "676"]
+[BlackElo "726"]
+[TimeControl "300"]
+[EndTime "18:46:45 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 b6 2. d4 Bb7 3. Be3 Bxe4 4. Nf3 g6 5. Bd3 Bb7 6. c3 c5 7. O-O f5 8. Ng5 h6
+9. Nf3 e5 10. Bc2 cxd4 11. cxd4 d6 12. Nc3 Bg7 13. Re1 e4 14. Nh4 Qxh4 15. g3
+Qd8 16. f3 exf3 17. h4 g5 18. hxg5 hxg5 19. Bxg5+ Ne7 20. Rxe7+ Kf8 21. Rxb7
+Qxg5 22. Qxf3 Bxd4+ 23. Kg2 Qd2+ 24. Qe2 Bxc3 25. bxc3 Qxe2+ 26. Kg1 Qxc2 27.
+Rb1 Qxb1+ 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.21"]
+[Round "-"]
+[White "AdamaTraoreinurbox"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "689"]
+[BlackElo "735"]
+[TimeControl "300"]
+[EndTime "18:52:25 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. e4 b6 2. d4 Bb7 3. d5 g6 4. f3 Bg7 5. c4 c6 6. dxc6 Bxc6 7. Bd2 Bxb2 8. Bc3
+Bxa1 9. Bxa1 f6 10. e5 b5 11. cxb5 Qa5+ 12. Nc3 Bb7 13. exf6 Nxf6 14. Nh3 O-O
+15. Bc4+ e6 16. Qb3 Re8 17. O-O Qb6+ 18. Kh1 d5 19. Bxd5 exd5 20. Nxd5 Nxd5 21.
+Qxd5+ Bxd5 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.21"]
+[Round "-"]
+[White "minhle10"]
+[Black "chaseisgreat"]
+[Result "1-0"]
+[WhiteElo "743"]
+[BlackElo "686"]
+[TimeControl "300"]
+[EndTime "19:00:51 PDT"]
+[Termination "minhle10 won by resignation"]
+
+1. b3 Nf6 2. Bb2 g6 3. g3 Bg7 4. Bg2 O-O 5. e3 d6 6. d4 Nc6 7. c3 e5 8. Ne2 exd4
+9. cxd4 Bf5 10. O-O Nb4 11. Na3 Re8 12. Nf4 c5 13. Bxb7 Rb8 14. Qf3 Nd3 15. Bc3
+Nxf4 16. gxf4 Ne4 17. Bc6 Re7 18. Bxe4 Bxe4 19. Qg3 cxd4 20. Bxd4 Bxd4 21. exd4
+Qa5 22. Nc4 Qb4 23. Nxd6 Qxd4 24. f5 Bxf5 25. Nxf5 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.22"]
+[Round "-"]
+[White "minhle10"]
+[Black "Genti21"]
+[Result "1/2-1/2"]
+[WhiteElo "742"]
+[BlackElo "707"]
+[TimeControl "300"]
+[EndTime "9:46:23 PDT"]
+[Termination "Game drawn by stalemate"]
+
+1. b3 g6 2. Bb2 Nf6 3. g3 Bg7 4. Bg2 O-O 5. e3 Ng4 6. d4 d5 7. h3 Nh6 8. Ne2 Nc6
+9. O-O Bf5 10. Nec3 e6 11. e4 Bxe4 12. Bxe4 dxe4 13. Nxe4 Nxd4 14. Bxd4 Qxd4 15.
+Qxd4 Bxd4 16. Nbc3 Bxc3 17. Nxc3 Nf5 18. Rad1 Rad8 19. g4 Nd4 20. Rd3 e5 21.
+Rfd1 Nc6 22. Ne4 Rxd3 23. Rxd3 f5 24. Ng5 fxg4 25. hxg4 Nb4 26. Rd7 Nxc2 27.
+Nxh7 Re8 28. Nf6+ Kf8 29. Nxe8 Kxe8 30. Rxc7 a5 31. Rxc2 b5 32. Re2 Ke7 33.
+Rxe5+ Kf6 34. Rxb5 g5 35. Rxa5 Kg6 36. b4 Kh6 37. b5 Kg6 38. b6 Kf7 39. b7 Ke7
+40. b8=Q Kd7 41. Qb6 Kc8 42. Ra7 1/2-1/2
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.22"]
+[Round "-"]
+[White "jhbizza"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "719"]
+[BlackElo "751"]
+[TimeControl "300"]
+[EndTime "10:39:07 PDT"]
+[Termination "minhle10 won on time"]
+
+1. e4 b6 2. Bc4 Bb7 3. Bxf7+ Kxf7 4. Qh5+ g6 5. Qe5 Bg7 6. Qf4+ Ke8 7. Nf3 Bh6
+8. Qe5 Nf6 9. O-O d6 10. Qe6 Bxe4 11. Nc3 Bxc2 12. d4 Bf5 13. Qe2 e5 14. Bxh6
+Qe7 15. Ng5 Ng4 16. Nd5 Qd7 17. f4 Nxh6 18. fxe5 dxe5 19. Qxe5+ Kd8 20. Qxh8+
+Qe8 21. Qf6+ Kc8 22. Rae1 Qd7 23. Ne7+ Kb7 24. Nxf5 Nxf5 25. g4 Qxd4+ 26. Qxd4
+Nxd4 27. Rd1 Nbc6 28. Nxh7 Nc2 29. Rc1 Ne3 30. Rxc6 Kxc6 31. Rc1+ Kb7 32. b4 a5
+33. Nf6 axb4 34. Nd5 c5 35. Ne7 Rxa2 36. Nxg6 Nxg4 37. Ne5 Nxe5 38. Rc4 Nxc4 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.24"]
+[Round "-"]
+[White "Luca_celentano"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "719"]
+[BlackElo "759"]
+[TimeControl "300"]
+[EndTime "11:20:30 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 b6 2. Nf3 Bb7 3. Bc4 Bxe4 4. Ng5 e6 5. d3 Bxg2 6. Rg1 Bb7 7. Nc3 d5 8.
+Bb5+ c6 9. Ba4 b5 10. Bb3 a5 11. a3 b4 12. axb4 Bxb4 13. Bd2 h6 14. Nf3 Qf6 15.
+d4 Ba6 16. h4 e5 17. dxe5 Qe6 18. Rxg7 f6 19. Ne2 Qh3 20. Rg1 Qxf3 21. Bxb4 axb4
+22. exf6 Nxf6 23. Ba4 Ne4 24. Qd4 Qxe2# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.24"]
+[Round "-"]
+[White "ilovechess4now"]
+[Black "minhle10"]
+[Result "0-1"]
+[WhiteElo "779"]
+[BlackElo "769"]
+[TimeControl "300"]
+[EndTime "19:43:39 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. e4 b6 2. Qf3 Bb7 3. Bc4 e6 4. Qg3 g6 5. Nc3 Bg7 6. Nb5 Na6 7. Nf3 Bxe4 8. d3
+Bb7 9. Nbd4 d5 10. Bxa6 Bxa6 11. Nc6 Qd7 12. Na5 bxa5 13. O-O f5 14. Ne5 Qd6 15.
+Re1 Qb4 16. Nc6 Qxe1# 0-1
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.25"]
+[Round "-"]
+[White "minhle10"]
+[Black "sarcassin"]
+[Result "1-0"]
+[WhiteElo "777"]
+[BlackElo "747"]
+[TimeControl "300"]
+[EndTime "20:58:44 PDT"]
+[Termination "minhle10 won by checkmate"]
+
+1. g3 e5 2. Bg2 d5 3. b3 Bf5 4. Bb2 Nc6 5. e3 Nb4 6. d3 Bc5 7. a3 Nc6 8. b4 Bb6
+9. b5 Na5 10. Bxe5 Nf6 11. c4 dxc4 12. dxc4 Nxc4 13. Bxb7 Rb8 14. Ba6 O-O 15.
+Qxd8 Rbxd8 16. Bb7 Ba5+ 17. Nc3 Nd2 18. Bxc7 Rd3 19. Bxa5 Nb3 20. Rd1 Nxa5 21.
+Rxd3 Bxd3 22. Bd5 Rc8 23. Kd2 Bc4 24. e4 Bxd5 25. exd5 Nc4+ 26. Ke2 Nxa3 27. Nf3
+Rxc3 28. d6 Rc2+ 29. Ke3 Rc3+ 30. Kd2 Rxf3 31. d7 Nxd7 32. Ke2 Rf6 33. Rd1 Nc5
+34. Rd8# 1-0
+
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2021.05.27"]
+[Round "-"]
+[White "Tonto1907"]
+[Black "minhle10"]
+[Result "1-0"]
+[WhiteElo "765"]
+[BlackElo "768"]
+[TimeControl "300"]
+[EndTime "18:26:59 PDT"]
+[Termination "Tonto1907 won - game abandoned"]
+
+1. d4 b6 2. e4 Bb7 3. e5 g6 4. Bg5 Bg7 5. Nf3 h6 6. Bf4 g5 7. Be3 e6 8. Nc3 d5
+9. exd6 cxd6 10. Bb5+ Bc6 11. O-O a6 12. Bxc6+ Nxc6 13. a4 e5 14. dxe5 dxe5 15.
+Qxd8+ Rxd8 16. Bxb6 Rd7 17. a5 Nb4 18. Rae1 Nxc2 19. Rc1 Nb4 20. Bc5 Nd3 21.
+Rcd1 Nxc5 22. Rxd7 Kxd7 23. Nd5 Kd6 24. Nb6 e4 25. Nd2 Bd4 26. Nc8+ Kc7 27. Na7
+Kb7 28. Nc8 Kxc8 29. Nc4 Nf6 30. Nd6+ 1-0
