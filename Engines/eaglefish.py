@@ -31,6 +31,28 @@ default_internal = {
 internal = default_internal
 
 def set_position_from_fen(fen):
+    fen_args = fen.split()
+    pos_string = fen_args[0]
+    move = -1 if fen_args[1] == "w" else 1
+    start = 56
+    i = 0
+    piecemap = {"p": 7,"r": 10,"n": 9, "b": 8,"q": 11,"k": 12, "P": 1,"R": 4,"N": 3,"B": 2,"Q": 5,"K": 6}
+    for char in pos_string:
+        if i > 8 or start < 0: raise Exception("Invalid FEN")
+        if char in '12345678':
+            num = int(char)
+            CURRENT_POSITION[start+i:start+num] = [0]*num
+            i += num
+        elif char == '/':
+            i = 0
+            start -= 8
+        else:
+            try:
+                CURRENT_POSITION[start + i] = piecemap[char]
+                i += 1
+            except:
+                raise Exception("Invalid FEN")
+    CURRENT_POSITION[-1] = move
     return
 
 def valid_move(stringmove):
@@ -185,7 +207,7 @@ def main_loop():
                 if length < 2: continue
                 if args[1] == 'fen':
                     try:
-                        set_position_from_fen(args[2])
+                        set_position_from_fen(args[2]) # <----- Untested
                         i = 3
                     except:
                         continue
@@ -197,6 +219,8 @@ def main_loop():
                 if not args[i] == 'moves': 
                     continue
                 i += 1
+                # make moves on current position
+                # Mike TODO
                 while(i < length):
                     i += 1
             case _:
