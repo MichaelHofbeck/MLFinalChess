@@ -161,8 +161,7 @@ def main_loop():
                                     break
                             case "infinite":
                                 search = None
-                                internal['infinte'] = True
-                                internal['movetime'] = None
+                                internal['infinite'] = True
                                 continue
                     i += 1
             case "setoption":
