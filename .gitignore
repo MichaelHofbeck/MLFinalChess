@@ -13,6 +13,7 @@ dist/*
 
 # Ignore files inside Engines dir
 Engines/*
+!Engines/eaglefish.py
 
 # Ignore opening books such as polyglot
 *.bin
