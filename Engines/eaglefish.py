@@ -6,6 +6,7 @@ pass
 
 # Default Options
 depth = 1
+forced_enpassant = False
 
 
 def main_loop():
