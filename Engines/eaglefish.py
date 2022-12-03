@@ -91,7 +91,16 @@ def main_loop():
                                         internal['searchmoves'] = [args[i]]
                                 else:
                                     break # ignore the remaining commands
-                                print()
+                            case "wtime":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['wtime'] = args[i]
+                                else:
+                                    break
+                            case "wtime":
+                                if type(args[i]) == int and args[i] > 0:
+                                    internal['wtime'] = args[i]
+                                else:
+                                    break
                     i += 1
             case "setoption":
                 pass
