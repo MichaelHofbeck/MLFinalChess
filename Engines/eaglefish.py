@@ -4,6 +4,9 @@ pass
 # Load trained ML engine
 pass
 
+# global variables
+BESTMOVE = "e2e4"
+
 # setname Options
 forced_enpassant = False
 
@@ -38,24 +41,30 @@ def main_loop():
                 print("id author daveed")
 
                 print("uci ok")
+                continue
             case "debug on":
                 pass
+                continue
             case "debug off":
                 pass
+                continue
             case "isready":
                 pass
+                continue
             case "register":
                 pass
+                continue
             case "ucinewgame":
                 pass
+                continue
             case "stop":
-                pass
+                print(BESTMOVE)
+                continue
             case "ponderhit":
                 pass
+                continue
             case "quit":
-                pass
-            case _:
-                pass
+                break
         args = option.split()
         length = len(args)
         i = 1
@@ -88,8 +97,9 @@ def main_loop():
                 pass
             case "position":
                 pass
-        print(internal['searchmoves'])
-        print("no command matched")
+            case _:
+                print("no command matched")
+        
 
 main_loop()
 
