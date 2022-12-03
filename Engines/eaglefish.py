@@ -38,7 +38,7 @@ def main_loop():
         match option:
             case "uci":
                 print("id name eaglefish")
-                print("id author daveed")
+                print("id author David Evan Joe Mike Minh")
 
                 print("uci ok")
                 continue
@@ -49,7 +49,10 @@ def main_loop():
                 pass
                 continue
             case "isready":
-                pass
+                # load the NN weights
+                
+                # print ready
+                print("readyok")
                 continue
             case "register":
                 pass
