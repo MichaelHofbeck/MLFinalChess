@@ -1,5 +1,7 @@
 # imports
 import time
+import chess
+import random
 
 # Load trained ML engine
 pass
@@ -30,6 +32,38 @@ default_internal = {
 }
 
 internal = default_internal
+
+def get_current_possible():
+    board = chess.Board(fen=fen_from_current_position())
+    legal_moves = [str(x) for x in board.legal_moves]
+    return legal_moves
+
+def fen_from_current_position():
+    result = ""
+    piecemap = {7: "p", 10: "r", 8: "n", 9: "b", 11:"q", 12: "k", 1: "P", 4: "R", 2: "N", 3: "B", 5: "Q", 6: "K"}
+    i = 0
+    start = 56
+    spaces = 0
+    while start > -1:
+        while i < 8:
+            val = CURRENT_POSITION[start + i]
+            if val:
+                if spaces:
+                    result += str(spaces)
+                result += piecemap[val]
+            else:
+                spaces += 1
+            i += 1
+        if spaces:
+            result += str(spaces)
+        start -= 8
+        if start > -1:
+            result += "/"
+        i = 0
+        spaces = 0
+    result += " " + "b" if CURRENT_POSITION[-1] else "w"
+    result += " - - 0 0" # This should really not be hardcoded fwiw but should be good enough
+    return result
 
 def make_move(move):
     row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
@@ -233,6 +267,21 @@ def main_loop():
                             case "quit":
                                 break
                     i += 1
+                # get all possible moves as array in ['e2e4', 'f3g5'] format
+                poss = get_current_possible()
+
+                # do thinking stuff (or just pick a random move for now)
+                BESTMOVE = random.choice(poss)
+                while True:
+                    # we should do background processing instead of just waiting here
+                    cmd = input()
+                    match cmd:
+                        case "quit":
+                            quit()
+                        case "stop":
+                            print("info nodes" + NODES + " time " + str(start_time - time.time()))
+                            print('bestmove ' + BESTMOVE)
+                            break
             case "setoption":
                 if not length == 5: continue
                 if args[1] != 'name': continue
@@ -246,9 +295,10 @@ def main_loop():
                 if length < 2: continue
                 if args[1] == 'fen':
                     try:
-                        set_position_from_fen(args[2]) # <----- Untested
-                        i = 3
-                    except:
+                        set_position_from_fen(args[2:8]) # <----- Untested
+                        i = 8
+                    except Exception as e:
+                        # print(e)
                         continue
                     if length == 3: continue
                 elif args[1] == 'startpos':
