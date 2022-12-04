@@ -61,20 +61,41 @@ def fen_from_current_position():
             result += "/"
         i = 0
         spaces = 0
-    result += " " + "b" if CURRENT_POSITION[-1] else "w"
+    result += " b" if CURRENT_POSITION[-1] == 1 else " w"
     result += " - - 0 0" # This should really not be hardcoded fwiw but should be good enough
     return result
 
 def make_move(move):
-    row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
-    start_square = move[:2]
-    start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
-    end_square = move[2:4]
-    end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
-
-    i = CURRENT_POSITION[start_square_index]
-    CURRENT_POSITION[start_square_index] = 0
-    CURRENT_POSITION[end_square_index] = i
+    match move:
+        case 'e1c1':
+            CURRENT_POSITION[0] = 0
+            CURRENT_POSITION[2] = 6
+            CURRENT_POSITION[3] = 4
+            CURRENT_POSITION[4] = 0
+        case 'e1g1':
+            CURRENT_POSITION[4] = 0
+            CURRENT_POSITION[6] = 6
+            CURRENT_POSITION[5] = 4
+            CURRENT_POSITION[7] = 0
+        case 'e8c8':
+            CURRENT_POSITION[56] = 0
+            CURRENT_POSITION[58] = 12
+            CURRENT_POSITION[59] = 10
+            CURRENT_POSITION[60] = 0
+        case 'e8g8':
+            CURRENT_POSITION[62] = 0
+            CURRENT_POSITION[62] = 12
+            CURRENT_POSITION[61] = 10
+            CURRENT_POSITION[60] = 0
+        case _:
+            row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
+            piecemap = {"p": 7,"r": 10,"n": 9, "b": 8,"q": 11,"k": 12, "P": 1,"R": 4,"N": 3,"B": 2,"Q": 5,"K": 6}
+            start_square = move[:2]
+            start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
+            end_square = move[2:4]
+            end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
+            CURRENT_POSITION[end_square_index] = CURRENT_POSITION[start_square_index] if len(move) != 5 else piecemap[move[4]]
+            CURRENT_POSITION[start_square_index] = 0
 
 def set_position_from_fen(fen):
     fen_args = fen.split()
@@ -107,13 +128,13 @@ def valid_move(stringmove):
     return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
 
 def main_loop():
-    print("starting game")
+    print("info string eaglefish unr Build 0")
     while True:
         option = input()
         match option:
             case "uci":
                 print("id name eaglefish")
-                print("id author David Evan Joe Mike Minh")
+                print("id author HarikaStudios")
                 print("option name forcedEnpassant type check default false")
                 print("uci ok")
                 continue
@@ -236,11 +257,6 @@ def main_loop():
                                 internal['infinite'] = True
                                 continue
                             case "ponderhit":
-                                print("user played expected moves!")
-                                continue
-                            case "stop":
-                                print("info nodes" + NODES + " time " + str(start_time - time.time()))
-                                print('bestmove ' + BESTMOVE)
                                 continue
                             case "quit":
                                 break
@@ -257,8 +273,8 @@ def main_loop():
                         case "quit":
                             quit()
                         case "stop":
-                            print("info nodes" + NODES + " time " + str(start_time - time.time()))
-                            print('bestmove ' + BESTMOVE)
+                            print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))))
+                            print((BESTMOVE, None))
                             break
             case "setoption":
                 if not length == 5: continue
@@ -276,10 +292,9 @@ def main_loop():
                         set_position_from_fen(args[2:8]) # <----- Untested
                         i = 8
                     except Exception as e:
-                        # print(e)
                         continue
                     if length == 3: continue
-                elif args[1] == 'startpos':
+                if args[1] == 'startpos':
                     if length == 2: continue
                     i = 2
                     CURRENT_POSITION = START_POSITION
@@ -287,15 +302,14 @@ def main_loop():
                 if not args[i] == 'moves':
                     continue
                 i += 1
-                # make moves on current position
-                # Mike TODO
                 while(i < length):
                     make_move(args[i])
                     i += 1
                 print(CURRENT_POSITION)
 
             case _:
-                print("no command matched")
+                pass
+                # print("no command matched")
         
 
 main_loop()
