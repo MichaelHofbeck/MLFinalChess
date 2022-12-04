@@ -8,6 +8,7 @@ pass
 BESTMOVE = "e2e4"
 NODES = 0
 CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 10, 8, 9, 11, 12, 9, 8, 10, -1]
+START_POSITION = CURRENT_POSITION
 
 # setname Options
 forcedEnpassant = False
@@ -29,6 +30,17 @@ default_internal = {
 }
 
 internal = default_internal
+
+def make_move(move):
+    row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
+    start_square = move[:2]
+    start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
+    end_square = move[2:4]
+    end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
+
+    i = CURRENT_POSITION[start_square_index]
+    CURRENT_POSITION[start_square_index] = 0
+    CURRENT_POSITION[end_square_index] = i
 
 def set_position_from_fen(fen):
     fen_args = fen.split()
@@ -217,17 +229,21 @@ def main_loop():
                     except:
                         continue
                     if length == 3: continue
-                elif args[1] != 'startpos':
+                elif args[1] == 'startpos':
                     if length == 2: continue
                     i = 2
-                else: continue 
-                if not args[i] == 'moves': 
+                    CURRENT_POSITION = START_POSITION
+                else: continue
+                if not args[i] == 'moves':
                     continue
                 i += 1
                 # make moves on current position
                 # Mike TODO
                 while(i < length):
+                    make_move(args[i])
                     i += 1
+                print(CURRENT_POSITION)
+
             case _:
                 print("no command matched")
         
