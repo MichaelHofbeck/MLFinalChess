@@ -38,9 +38,31 @@ def make_move(move):
     end_square = move[2:4]
     end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
 
-    i = CURRENT_POSITION[start_square_index]
-    CURRENT_POSITION[start_square_index] = 0
-    CURRENT_POSITION[end_square_index] = i
+    match move:
+        case 'e1c1':
+            CURRENT_POSITION[0] = 0
+            CURRENT_POSITION[2] = 6
+            CURRENT_POSITION[3] = 4
+            CURRENT_POSITION[4] = 0
+        case 'e1g1':
+            CURRENT_POSITION[4] = 0
+            CURRENT_POSITION[6] = 6
+            CURRENT_POSITION[5] = 4
+            CURRENT_POSITION[7] = 0
+        case 'e8c8':
+            CURRENT_POSITION[56] = 0
+            CURRENT_POSITION[58] = 12
+            CURRENT_POSITION[59] = 10
+            CURRENT_POSITION[60] = 0
+        case 'e8g8':
+            CURRENT_POSITION[62] = 0
+            CURRENT_POSITION[62] = 12
+            CURRENT_POSITION[61] = 10
+            CURRENT_POSITION[60] = 0
+        case _:
+            i = CURRENT_POSITION[start_square_index]
+            CURRENT_POSITION[start_square_index] = 0
+            CURRENT_POSITION[end_square_index] = i
 
 def set_position_from_fen(fen):
     fen_args = fen.split()
