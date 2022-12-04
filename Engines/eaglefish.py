@@ -2,6 +2,29 @@
 import time
 import chess
 import random
+import threading
+import queue
+import time
+
+
+def get_input(message, channel):
+    response = input()
+    channel.put(response)
+
+
+def input_with_timeout(message, timeout):
+    channel = queue.Queue()
+    thread = threading.Thread(target=get_input, args=(message, channel))
+    # by setting this as a daemon thread, python won't wait for it to complete
+    thread.daemon = True
+    thread.start()
+
+    try:
+        response = channel.get(True, timeout)
+        return response
+    except queue.Empty:
+        pass
+    return None
 
 # Load trained ML engine
 pass
@@ -27,7 +50,7 @@ default_internal = {
     'depth': 3, # moves ahead (including opponent)
     'nodes': None, # legal moves looked at
     'mate': None, # searching for mate in exactly x moves
-    'movetime': 10000, # in ms
+    'movetime': 0, # in ms
     'infinite': False
 }
 
@@ -50,6 +73,7 @@ def fen_from_current_position():
             if val:
                 if spaces:
                     result += str(spaces)
+                    spaces = 0
                 result += piecemap[val]
             else:
                 spaces += 1
@@ -66,6 +90,7 @@ def fen_from_current_position():
     return result
 
 def make_move(move):
+    CURRENT_POSITION[64] *= -1
     match move:
         case 'e1c1':
             CURRENT_POSITION[0] = 0
@@ -120,7 +145,6 @@ def set_position_from_fen(fen):
             except:
                 raise Exception("Invalid FEN")
     CURRENT_POSITION[-1] = move
-    return
 
 def valid_move(stringmove):
     alphabet = 'abcdefgh'
@@ -136,7 +160,7 @@ def main_loop():
                 print("id name eaglefish")
                 print("id author HarikaStudios")
                 print("option name forcedEnpassant type check default false")
-                print("uci ok")
+                print("uciok")
                 continue
             case "debug on":
                 pass
@@ -156,7 +180,7 @@ def main_loop():
             case "ucinewgame":
                 continue
             case "quit":
-                break
+                return
         args = option.split()
         length = len(args)
         i = 1
@@ -266,16 +290,22 @@ def main_loop():
 
                 # do thinking stuff (or just pick a random move for now)
                 BESTMOVE = random.choice(poss)
-                while True:
+                movetime = internal['movetime'] if internal['movetime'] != 0 else 200
+                if internal['infinite']: movetime = 0
+                while internal['infinite'] or movetime > int(1000*(time.time() - start_time)):
                     # we should do background processing instead of just waiting here
-                    cmd = input()
+                    cmd = input_with_timeout("Commands:", max((movetime/1000 - time.time() - start_time), 0.1))
                     match cmd:
                         case "quit":
-                            quit()
+                            return
                         case "stop":
                             print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))))
-                            print((BESTMOVE, None))
-                            break
+                            print('bestmove ' + BESTMOVE)
+                            internal['infinite'] = False
+                if movetime != 0:
+                    print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))) + " pv " + BESTMOVE)
+                    print('bestmove ' + BESTMOVE)
+
             case "setoption":
                 if not length == 5: continue
                 if args[1] != 'name': continue
@@ -305,8 +335,6 @@ def main_loop():
                 while(i < length):
                     make_move(args[i])
                     i += 1
-                print(CURRENT_POSITION)
-
             case _:
                 pass
                 # print("no command matched")
