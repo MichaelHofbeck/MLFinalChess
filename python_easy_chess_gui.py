@@ -489,7 +489,6 @@ class RunEngine(threading.Thread):
         start_time = time.perf_counter()
         if self.analysis:
             is_time_check = False
-
             with self.engine.analysis(self.board, limit) as analysis:
                 for info in analysis:
 

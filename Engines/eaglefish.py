@@ -2,6 +2,29 @@
 import time
 import chess
 import random
+import threading
+import queue
+import time
+
+
+def get_input(message, channel):
+    response = input()
+    channel.put(response)
+
+
+def input_with_timeout(message, timeout):
+    channel = queue.Queue()
+    thread = threading.Thread(target=get_input, args=(message, channel))
+    # by setting this as a daemon thread, python won't wait for it to complete
+    thread.daemon = True
+    thread.start()
+
+    try:
+        response = channel.get(True, timeout)
+        return response
+    except queue.Empty:
+        pass
+    return None
 
 # Load trained ML engine
 pass
@@ -27,7 +50,7 @@ default_internal = {
     'depth': 3, # moves ahead (including opponent)
     'nodes': None, # legal moves looked at
     'mate': None, # searching for mate in exactly x moves
-    'movetime': 10000, # in ms
+    'movetime': 0, # in ms
     'infinite': False
 }
 
@@ -50,6 +73,7 @@ def fen_from_current_position():
             if val:
                 if spaces:
                     result += str(spaces)
+                    spaces = 0
                 result += piecemap[val]
             else:
                 spaces += 1
@@ -66,13 +90,7 @@ def fen_from_current_position():
     return result
 
 def make_move(move):
-    row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
-    start_square = move[:2]
-    start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
-    end_square = move[2:4]
-    end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
     CURRENT_POSITION[64] *= -1
-
     match move:
         case 'e1c1':
             CURRENT_POSITION[0] = 0
@@ -95,9 +113,14 @@ def make_move(move):
             CURRENT_POSITION[61] = 10
             CURRENT_POSITION[60] = 0
         case _:
-            i = CURRENT_POSITION[start_square_index]
+            row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
+            piecemap = {"p": 7,"r": 10,"n": 9, "b": 8,"q": 11,"k": 12, "P": 1,"R": 4,"N": 3,"B": 2,"Q": 5,"K": 6}
+            start_square = move[:2]
+            start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
+            end_square = move[2:4]
+            end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
+            CURRENT_POSITION[end_square_index] = CURRENT_POSITION[start_square_index] if len(move) != 5 else piecemap[move[4]]
             CURRENT_POSITION[start_square_index] = 0
-            CURRENT_POSITION[end_square_index] = i
 
 def set_position_from_fen(fen):
     fen_args = fen.split()
@@ -122,7 +145,6 @@ def set_position_from_fen(fen):
             except:
                 raise Exception("Invalid FEN")
     CURRENT_POSITION[-1] = move
-    return
 
 def valid_move(stringmove):
     alphabet = 'abcdefgh'
@@ -130,15 +152,15 @@ def valid_move(stringmove):
     return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
 
 def main_loop():
-    print("starting game")
+    print("info string eaglefish unr Build 0")
     while True:
         option = input()
         match option:
             case "uci":
                 print("id name eaglefish")
-                print("id author David Evan Joe Mike Minh")
+                print("id author HarikaStudios")
                 print("option name forcedEnpassant type check default false")
-                print("uci ok")
+                print("uciok")
                 continue
             case "debug on":
                 pass
@@ -158,8 +180,7 @@ def main_loop():
             case "ucinewgame":
                 continue
             case "quit":
-                # return 'bestmove ' + BESTMOVE
-                break
+                return
         args = option.split()
         length = len(args)
         i = 1
@@ -260,7 +281,6 @@ def main_loop():
                                 internal['infinite'] = True
                                 continue
                             case "ponderhit":
-                                print("user played expected moves!")
                                 continue
                             case "quit":
                                 return BESTMOVE
@@ -271,21 +291,22 @@ def main_loop():
 
                 # do thinking stuff (or just pick a random move for now)
                 BESTMOVE = random.choice(poss)
-                # while internal['infinite'] or (time.time() - start_time) < internal['movetime'] / 1000:
-                while True:
+                movetime = internal['movetime'] if internal['movetime'] != 0 else 200
+                if internal['infinite']: movetime = 0
+                while internal['infinite'] or movetime > int(1000*(time.time() - start_time)):
                     # we should do background processing instead of just waiting here
-                    cmd = input()
+                    cmd = input_with_timeout("Commands:", max((movetime/1000 - time.time() - start_time), 0.1))
                     match cmd:
                         case "quit":
-                            quit()
+                            return
                         case "stop":
-                            print("info nodes " + str(NODES) + " time " + str(int((time.time() - start_time) * 1000)))
+                            print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))))
                             print('bestmove ' + BESTMOVE)
-                            print(fen_from_current_position())
-                            return 'bestmove ' + BESTMOVE
-                            break
-                print("info nodes " + str(NODES) + " time " + str(int((time.time() - start_time) * 1000)))
-                print('bestmove ' + BESTMOVE)
+                            internal['infinite'] = False
+                if movetime != 0:
+                    print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))) + " pv " + BESTMOVE)
+                    print('bestmove ' + BESTMOVE)
+
             case "setoption":
                 if not length == 5: continue
                 if args[1] != 'name': continue
@@ -302,10 +323,9 @@ def main_loop():
                         set_position_from_fen(args[2:8]) # <----- Untested
                         i = 8
                     except Exception as e:
-                        # print(e)
                         continue
                     if length == 3: continue
-                elif args[1] == 'startpos':
+                if args[1] == 'startpos':
                     if length == 2: continue
                     i = 2
                     CURRENT_POSITION = START_POSITION
@@ -313,15 +333,12 @@ def main_loop():
                 if not args[i] == 'moves':
                     continue
                 i += 1
-                # make moves on current position
-                # Mike TODO
                 while(i < length):
                     make_move(args[i])
                     i += 1
-                print(CURRENT_POSITION)
-
             case _:
-                print("no command matched")
+                pass
+                # print("no command matched")
         
 
 main_loop()
