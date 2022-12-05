@@ -7,7 +7,7 @@ import random
 pass
 
 # global variables
-BESTMOVE = "e2e4"
+BESTMOVE = "e7e6"
 NODES = 0
 CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 10, 8, 9, 11, 12, 9, 8, 10, -1]
 START_POSITION = CURRENT_POSITION
@@ -61,7 +61,7 @@ def fen_from_current_position():
             result += "/"
         i = 0
         spaces = 0
-    result += " " + "b" if CURRENT_POSITION[-1] else "w"
+    result += " b" if CURRENT_POSITION[-1] == 1 else " w"
     result += " - - 0 0" # This should really not be hardcoded fwiw but should be good enough
     return result
 
@@ -71,6 +71,7 @@ def make_move(move):
     start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
     end_square = move[2:4]
     end_square_index = row_map[end_square[0]] + (int(end_square[1]) - 1) * 8
+    CURRENT_POSITION[64] *= -1
 
     match move:
         case 'e1c1':
@@ -157,6 +158,7 @@ def main_loop():
             case "ucinewgame":
                 continue
             case "quit":
+                # return 'bestmove ' + BESTMOVE
                 break
         args = option.split()
         length = len(args)
@@ -260,11 +262,8 @@ def main_loop():
                             case "ponderhit":
                                 print("user played expected moves!")
                                 continue
-                            case "stop":
-                                print("info nodes" + NODES + " time " + str(start_time - time.time()))
-                                print('bestmove ' + BESTMOVE)
-                                continue
                             case "quit":
+                                return BESTMOVE
                                 break
                     i += 1
                 # get all possible moves as array in ['e2e4', 'f3g5'] format
@@ -272,6 +271,7 @@ def main_loop():
 
                 # do thinking stuff (or just pick a random move for now)
                 BESTMOVE = random.choice(poss)
+                # while internal['infinite'] or (time.time() - start_time) < internal['movetime'] / 1000:
                 while True:
                     # we should do background processing instead of just waiting here
                     cmd = input()
@@ -279,9 +279,13 @@ def main_loop():
                         case "quit":
                             quit()
                         case "stop":
-                            print("info nodes" + NODES + " time " + str(start_time - time.time()))
+                            print("info nodes " + str(NODES) + " time " + str(int((time.time() - start_time) * 1000)))
                             print('bestmove ' + BESTMOVE)
+                            print(fen_from_current_position())
+                            return 'bestmove ' + BESTMOVE
                             break
+                print("info nodes " + str(NODES) + " time " + str(int((time.time() - start_time) * 1000)))
+                print('bestmove ' + BESTMOVE)
             case "setoption":
                 if not length == 5: continue
                 if args[1] != 'name': continue

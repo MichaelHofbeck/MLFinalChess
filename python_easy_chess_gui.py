@@ -1259,6 +1259,8 @@ class EasyChessGui:
         best_move = None
         msg_str = str(msg)
 
+        print(msg_str)
+
         if not 'bestmove ' in msg_str:
             if 'info_all' in msg_str:
                 info_all = ' '.join(msg_str.split()[0:-1]).strip()
