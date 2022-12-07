@@ -38,7 +38,7 @@ def labelData(gameVectors):
           newGameVectors.append(newGame)
      return newGameVectors
 
-
+# TODO ADD CASTLING FUNCTIONALITY
 def boardStateToMoveInt(initialBoardState, endBoardState):
      for i in range(len(initialBoardState) - 1):
           if (endBoardState[i] == 0) and (initialBoardState[i] != 0):
