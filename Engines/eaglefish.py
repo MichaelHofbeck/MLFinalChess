@@ -30,7 +30,7 @@ def input_with_timeout(message, timeout):
 pass
 
 # global variables
-BESTMOVE = "e7e6"
+BESTMOVE = "e2e4"
 NODES = 0
 CURRENT_POSITION = [4, 2, 3, 5, 6, 3, 2, 4, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 7, 10, 8, 9, 11, 12, 9, 8, 10, -1]
 START_POSITION = CURRENT_POSITION
@@ -283,7 +283,6 @@ def main_loop():
                             case "ponderhit":
                                 continue
                             case "quit":
-                                return BESTMOVE
                                 break
                     i += 1
                 # get all possible moves as array in ['e2e4', 'f3g5'] format

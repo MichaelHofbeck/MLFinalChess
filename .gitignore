@@ -6,6 +6,7 @@
 *.csv
 *.bat
 *.json
+*.pyc
 
 # Ignore files inside the dirs created by setup.py
 build/*
