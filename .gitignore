@@ -23,6 +23,7 @@ Engines/*
 *.txt
 !README.md
 !evalDataInit.txt
+!evalData.txt
 
 venv
 .idea
