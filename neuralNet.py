@@ -30,17 +30,16 @@ import random
 """
 Initialize Hyperparameters
 """
-batch_size = 100
-learning_rate = 1e-3
-num_epochs = 1000
+batch_size = 10
+learning_rate = 1e-6
+num_epochs = 5000
 
 PPG_Data = []
 data = None
-with open("evalData.txt", "r") as g:
+with open("evalDataInit.txt", "r") as g:
     data = g.readlines()
 for line in data:
-    PPG_Data.append(line.split(","))
-print(len(PPG_Data[0]))
+    PPG_Data.append(line.split(",")[:-1])
 sample_length = 65
 
 print("DATA LOADED")
@@ -54,7 +53,7 @@ cpu = torch.device("cpu")
 Final Input Processing
 """
 random.shuffle(PPG_Data)
-recordings = np.array(PPG_Data[:len(PPG_Data)-(len(PPG_Data)%batch_size)])
+recordings = np.array(PPG_Data[:len(PPG_Data)-(len(PPG_Data)%batch_size)], dtype=float)
 print("Total Samples: " + str(len(recordings)))
 cutoff = int(0.9*(len(recordings)//batch_size))*batch_size
 
@@ -73,27 +72,29 @@ test_loader = torch.utils.data.DataLoader(
 A Convolutional Variational Autoencoder
 """
 class VAE(nn.Module):
-    def __init__(self, imgChannels=1, featureDim=5300, bsize=batch_size):
+    def __init__(self, imgChannels=1, featureDim=65, bsize=batch_size):
         super(VAE, self).__init__()
 
         # Initializing the 2 convolutional layers and 2 full-connected layers for the encoder
-        self.encConv1 = nn.Conv1d(imgChannels, 8, 5)
-        self.encConv2 = nn.Conv1d(8, 5, 5)
-        self.encConv3 = nn.Conv1d(5, 1, 5)
-        self.encFC1 = nn.Linear(featureDim, bsize)
+        self.encConv1 = nn.Conv1d(1, 1, 5)
+        self.encConv2 = nn.Conv1d(1, 1, 5)
+        self.encConv3 = nn.Conv1d(1, 1, 5)
+        self.encFC1 = nn.Linear(featureDim, 10000*bsize)
+        self.encFC2 = nn.Linear(10000*bsize, 1)
 
-    def encoder(self, x, featureDim=5300):
+    def encoder(self, x, featureDim=65*batch_size):
 
         x = torch.unsqueeze(x, 1)
         # print(x.shape)
-        x = F.relu(self.encConv1(x))
+        # x = F.relu(self.encConv1(x))
         # print(x.shape)
-        x = F.relu(self.encConv2(x))
+        # x = F.relu(self.encConv2(x))
         # print(x.shape)
-        x = F.relu(self.encConv3(x))
+        # x = F.relu(self.encConv3(x))
         # print(x.shape)
-        x = x.view(-1, featureDim)
+        # x = x.view(-1, featureDim)
         mu = self.encFC1(x)
+        mu = self.encFC2(mu)
         # print(mu.shape)
         return mu
 
@@ -109,7 +110,7 @@ class VAE(nn.Module):
 Initialize the network and the Adam optimizer
 """
 net = VAE().to(device)
-optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate, momentum=0.001, weight_decay=0.001)
+optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate)#, momentum=0.0001, weight_decay=0.0001)
 
 """
 Training the network for a given number of epochs
@@ -125,6 +126,8 @@ for epoch in range(num_epochs):
         # Feeding a batch of images into the network to obtain the output image, mu, and logVar
         out = net(imgs)
         out = out.to(device)
+        # print(out[5], targets[5])
+        # raise
         # The loss is the BCE loss combined with the KL divergence to ensure the distribution is learnt
         # kl_divergence = -0.5 * torch.sum(1 + logVar - mu.pow(2) - logVar.exp())
         # if idx % 1000: print(kl_divergence)
@@ -147,6 +150,7 @@ for epoch in range(num_epochs):
         # Backpropagation based on the loss
         optimizer.zero_grad()
         loss.backward()
+        # torch.nn.utils.clip_grad_norm_(net.parameters(), learning_rate/100)
         optimizer.step()
     print('Epoch {}: Loss {}'.format(epoch, loss.to(cpu)))
 raise
