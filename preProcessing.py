@@ -32,7 +32,6 @@ def labelData(gameVectors):
                     color = COLORDEX[game[i]]
                else:
                     game[i].append(boardStateToMoveInt(game[i], game[i + 1]))
-                    del game[i][0]
                     if color == game[i][-2]:
                          newGame.append(game[i])
           newGameVectors.append(newGame)
