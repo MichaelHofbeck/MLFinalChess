@@ -9,7 +9,7 @@ kf = KFold(n_splits=3)
 
 # Euclidean distance metric
 scores = []
-k = [_ for _ in range(1, 20)]
+k = [_ for _ in range(2, 80, 2)]
 for i in k:
     model = KNeighborsClassifier(n_neighbors=i)
     scores.append(np.mean((1 - cross_val_score(model, x, y, cv=kf))))
@@ -19,6 +19,8 @@ plt.title("Euclidean")
 plt.xlabel('k')
 plt.ylabel('error rate')
 plt.show()
+
+print('k: ' + str(scores.index(min(scores))) + ", accuracy: " + str(min(scores)))
 
 # Mahalanobis Metric
 # scores = []
