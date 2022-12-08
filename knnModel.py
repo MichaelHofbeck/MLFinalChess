@@ -9,13 +9,13 @@ kf = KFold(n_splits=3)
 
 # Euclidean distance metric
 scores = []
-k = [_ for _ in range(2, 80, 2)]
+k = [_ for _ in range(2, 80, 4)]
 for i in k:
     model = KNeighborsClassifier(n_neighbors=i)
     scores.append(np.mean((1 - cross_val_score(model, x, y, cv=kf))))
 
 plt.plot(k, scores)
-plt.title("Euclidean")
+plt.title("KNN with Euclidean Distance")
 plt.xlabel('k')
 plt.ylabel('error rate')
 plt.show()

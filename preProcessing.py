@@ -218,8 +218,8 @@ def main():
      npArray_data = np.array(stateVectors)
      npArray_target = np.array(targetVectors)
      # print(npArray.shape)
-     for pos in npArray_data:
-          evalFromPosition(pos)
+     # for pos in npArray_data:
+     #      evalFromPosition(pos)
      # board  = chess.Board()
      # print(str(board).split())
      # for move in games[1].mainline_moves():
@@ -228,8 +228,8 @@ def main():
      return npArray_data, npArray_target
 
 
-# main()
-evalProcessing()
+main()
+# evalProcessing()
 
 # 10, 8, 9, 11, 12, 9, 8, 10, 
 # 7, 7, 7, 7, 0, 7, 7, 7
