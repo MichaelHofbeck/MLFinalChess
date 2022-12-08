@@ -32,7 +32,6 @@ def labelData(gameVectors):
                     color = COLORDEX[game[i]]
                else:
                     game[i].append(boardStateToMoveInt(game[i], game[i + 1]))
-                    del game[i][0]
                     if color == game[i][-2]:
                          newGame.append(game[i])
           newGameVectors.append(newGame)
@@ -95,9 +94,10 @@ def main():
      # print(npArray.shape)
      # board  = chess.Board()
      # print(str(board).split())
-     # for move in games[1].mainline_moves():
+     # for move in games[0][1].mainline_moves():
      #           board.push(move)
      #           print(board)
+     # print(npArray_data[0])
      return npArray_data, npArray_target
 
 main()
