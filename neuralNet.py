@@ -30,9 +30,9 @@ import random
 """
 Initialize Hyperparameters
 """
-batch_size = 10
-learning_rate = 1e-6
-num_epochs = 5000
+batch_size = 100
+learning_rate = 1e-2
+num_epochs = 3000
 
 PPG_Data = []
 data = None
@@ -72,25 +72,25 @@ test_loader = torch.utils.data.DataLoader(
 A Convolutional Variational Autoencoder
 """
 class VAE(nn.Module):
-    def __init__(self, imgChannels=1, featureDim=65, bsize=batch_size):
+    def __init__(self, imgChannels=1, featureDim=53, bsize=batch_size):
         super(VAE, self).__init__()
 
         # Initializing the 2 convolutional layers and 2 full-connected layers for the encoder
         self.encConv1 = nn.Conv1d(1, 1, 5)
         self.encConv2 = nn.Conv1d(1, 1, 5)
         self.encConv3 = nn.Conv1d(1, 1, 5)
-        self.encFC1 = nn.Linear(featureDim, 10000*bsize)
-        self.encFC2 = nn.Linear(10000*bsize, 1)
+        self.encFC1 = nn.Linear(featureDim, 2000)
+        self.encFC2 = nn.Linear(2000, 1)
 
-    def encoder(self, x, featureDim=65*batch_size):
+    def encoder(self, x, featureDim=53):
 
         x = torch.unsqueeze(x, 1)
         # print(x.shape)
-        # x = F.relu(self.encConv1(x))
+        x = F.relu(self.encConv1(x))
         # print(x.shape)
-        # x = F.relu(self.encConv2(x))
+        x = F.relu(self.encConv2(x))
         # print(x.shape)
-        # x = F.relu(self.encConv3(x))
+        x = F.relu(self.encConv3(x))
         # print(x.shape)
         # x = x.view(-1, featureDim)
         mu = self.encFC1(x)
@@ -110,15 +110,16 @@ class VAE(nn.Module):
 Initialize the network and the Adam optimizer
 """
 net = VAE().to(device)
-optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate)#, momentum=0.0001, weight_decay=0.0001)
+optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate, momentum=0.9, weight_decay=0.0001)
 
 """
 Training the network for a given number of epochs
 The loss after every epoch is printed
 """
+losses = []
 for epoch in range(num_epochs):
     for idx, data in enumerate(train_loader, 0):
-
+        if epoch == num_epochs/2:   optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate/100, momentum=0.2)
         imgs = data[:,:-1].float()
         targets = data[:,-1].float()
         imgs = imgs.to(device)
@@ -126,8 +127,7 @@ for epoch in range(num_epochs):
         # Feeding a batch of images into the network to obtain the output image, mu, and logVar
         out = net(imgs)
         out = out.to(device)
-        # print(out[5], targets[5])
-        # raise
+
         # The loss is the BCE loss combined with the KL divergence to ensure the distribution is learnt
         # kl_divergence = -0.5 * torch.sum(1 + logVar - mu.pow(2) - logVar.exp())
         # if idx % 1000: print(kl_divergence)
@@ -150,22 +150,32 @@ for epoch in range(num_epochs):
         # Backpropagation based on the loss
         optimizer.zero_grad()
         loss.backward()
-        # torch.nn.utils.clip_grad_norm_(net.parameters(), learning_rate/100)
+        torch.nn.utils.clip_grad_norm_(net.parameters(), learning_rate)
         optimizer.step()
     print('Epoch {}: Loss {}'.format(epoch, loss.to(cpu)))
-raise
-with torch.no_grad():
-    for data in random.sample(list(test_loader), 1):
-        plt.gca().set_prop_cycle(color=['red', 'green'])
-        imgs = data.float()
-        img = imgs[0]
-        plt.plot(img)
-        imgs = imgs.to(device)
-        out, mu, logVAR = net(imgs)
-        outimg = out[0]
-        plt.plot(outimg.to(cpu))
-        plt.savefig("output11.png")
+    losses.append(loss.to(cpu).detach().numpy().item())
 
+plt.plot(np.array(losses))
+plt.title("CNN Loss")
+plt.xlabel('Epoch')
+plt.ylabel('Loss (in squared centipawns)')
+plt.show()
+
+torch.save(net.state_dict(), "CNN_weights.txt")
+""
+with torch.no_grad():
+    total_error = 0
+    for data in list(test_loader):
+        imgs = data[:,:-1].float()
+        targets = data[:,-1].float()
+        imgs = imgs.to(device)
+
+        out = net(imgs)
+
+        total_error += F.mse_loss(out, targets).detach().numpy().item()
+
+print(total_error/(len(test_loader)*batch_size))
+print("Avg Out of sample error (in squared centipawns)^^^")
 """
 The following part takes a random image from test loader to feed into the VAE.
 Both the original image and generated image from the distribution are shown.

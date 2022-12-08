@@ -4,6 +4,8 @@ import chess
 import random
 import threading
 import queue
+from ..neuralNet import VAE
+import torch
 
 stdin_q = queue.Queue()
 
@@ -310,6 +312,8 @@ def main_loop():
                         #
                         #
                         time.sleep(0.05)
+                        # model = VAE()
+                        # model.load_state_dict(torch.load("../CNN_weights.txt")) 
                         # 
                         #
                         # ALL THINKING SHOULD BE DONE ABOVE HERE
