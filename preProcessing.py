@@ -4,17 +4,21 @@ import re
 import numpy as np
 import json
 import chess.engine
+import requests
+import time
+import asyncio
 
 # define user
 USER = 'minhle10'
 COLORDEX = {'White': -1, 'Black': 1}
+ENGINE = chess.engine.SimpleEngine.popen_uci("./Engines/stockfish.exe")
 
 # converts Board() object to a vector of 1x65
 def boardToVec(board):
      currentBoard = str(board)
      positionArray = currentBoard.split()
      # 12 unique pieces
-     pieceToNum = {'.': 0, 'p': 7, 'n': 8, 'b': 9, 'r':10, 'k': 11, 'q': 12, 'P': 1, 'N': 2, 'B': 3, 'R': 4, 'K': 5, 'Q': 6}
+     pieceToNum = {'.': 0, 'p': 7, 'n': 8, 'b': 9, 'r':10, 'k': 12, 'q': 11, 'P': 1, 'N': 2, 'B': 3, 'R': 4, 'K': 6, 'Q': 5}
      vector = []
      for i in range(len(positionArray)- 1 , -1, -1):
           file = i % 8
@@ -28,18 +32,33 @@ def fenFromPosition(boardState):
      return fen_from_current_position(boardState)
 
 def evalFromFen(fen):
-     engine = createEngine()
      board = chess.Board(fen)
-     info = engine.analyse(board, chess.engine.Limit(time=0.1))
-     print("Score:", info["score"])
-     return info["score"]
+     try:
+          info = ENGINE.analyse(board, chess.engine.Limit(time=0.1))
+          print(info["score"].white().score(mate_score=5000))
+          return info["score"].white().score(mate_score=5000)
+     except: 
+          return None
+     
 
-def createEngine():
-     engine = chess.engine.SimpleEngine.popen_uci("./Engines/stockfish.exe")
-     return engine
 
 def evalFromPosition(boardState):
-     return evalFromFen(fenFromPosition(boardState))
+     score = evalFromFen(fenFromPosition(boardState))
+     if score is not None:
+          return score
+     else:
+          return None
+
+def evalFromBoardState(boardstate):
+     fen = fen_from_current_position(boardstate)
+     try:
+          eval = requests.get("https://lichess.org/api/cloud-eval", params={"fen": fen})
+          eval = json.loads(eval.text)
+          print(eval['pvs'][0]['cp'])
+          return eval['pvs'][0]['cp']
+     except:
+          eval = evalFromFen(fen)
+          return eval
 
 
 def fen_from_current_position(position):
@@ -110,11 +129,19 @@ def getTargetVector(stateVectors):
 def evalData(gameVectors):
      newVector = []
      for game in gameVectors:
+          datastring = ""
           game = game[1:]
           for i in range(len(game)):
-               print(game[i])
-               game[i].append(evalFromPosition(game[i]))
-               newVector.append(game[i])
+               eval = evalFromBoardState(game[i])
+               if eval is not None:
+                    game[i].append(eval)
+                    for j in game[i]:
+                         k = str(j)
+                         datastring += "{},".format(k)
+                    datastring += "\n"
+                    # newVector.append(game[i])
+          with open(r'evalData.txt', 'a') as f:
+               f.write(datastring)
      return newVector
 
 
@@ -123,6 +150,8 @@ def evalProcessing():
      games = []
      gameVectors = []
      for i in range(23):
+          games = []
+          gameVectors = []
           pgn = open("minhChessData/chess_com_games_2022-12-03 (" + str(i) + ").pgn")
           # print(pgn)
           for i in range(50):
@@ -131,26 +160,30 @@ def evalProcessing():
                          games.append(['White', chess.pgn.read_game(pgn)])
                     else:
                          games.append(['Black', chess.pgn.read_game(pgn)])
+          pgn.close()
 
-     for i in range(len(games)):     
-          # creating a virtual chessboard
-          board = chess.Board()
-          game = []
-          # prints out all chessboard positions
-          if games[i][1] is not None:
-               game.append(games[i][0])
-               for move in games[i][1].mainline_moves():
-                    board.push(move)
-                    # print(board)
-                    game.append(boardToVec(board))
-               gameVectors.append(game)
+          for i in range(len(games)):     
+               # creating a virtual chessboard
+               board = chess.Board()
+               game = []
+               # prints out all chessboard positions
+               if games[i][1] is not None:
+                    game.append(games[i][0])
+                    for move in games[i][1].mainline_moves():
+                         board.push(move)
+                         # print(board)
+                         game.append(boardToVec(board))
+                    gameVectors.append(game)
 
-     gameVectors = evalData(gameVectors)
-     print(gameVectors)
-     stateVectors, targetVectors = getTargetVector(gameVectors)
-     data = np.array(stateVectors)
-     target = np.array(targetVectors)
-     print(gameVectors[0])
+
+          gameVectors = evalData(gameVectors)
+          '''
+          print(gameVectors)
+          stateVectors, targetVectors = getTargetVector(gameVectors)
+          data = np.array(stateVectors)
+          target = np.array(targetVectors)
+          print(gameVectors[0])
+          '''
      return data, target
 
 def main():

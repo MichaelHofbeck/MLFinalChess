@@ -4,27 +4,14 @@ import chess
 import random
 import threading
 import queue
-import time
 
+stdin_q = queue.Queue()
 
-def get_input(message, channel):
-    response = input()
-    channel.put(response)
-
-
-def input_with_timeout(message, timeout):
-    channel = queue.Queue()
-    thread = threading.Thread(target=get_input, args=(message, channel))
-    # by setting this as a daemon thread, python won't wait for it to complete
-    thread.daemon = True
-    thread.start()
-
-    try:
-        response = channel.get(True, timeout)
-        return response
-    except queue.Empty:
-        pass
-    return None
+def pass_input():
+    while True:
+        response = input()
+        if response != None:
+            stdin_q.put(response)
 
 # Load trained ML engine
 pass
@@ -108,13 +95,13 @@ def make_move(move):
             CURRENT_POSITION[59] = 10
             CURRENT_POSITION[60] = 0
         case 'e8g8':
-            CURRENT_POSITION[62] = 0
+            CURRENT_POSITION[63] = 0
             CURRENT_POSITION[62] = 12
             CURRENT_POSITION[61] = 10
             CURRENT_POSITION[60] = 0
         case _:
             row_map = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h':7}
-            piecemap = {"p": 7,"r": 10,"n": 9, "b": 8,"q": 11,"k": 12, "P": 1,"R": 4,"N": 3,"B": 2,"Q": 5,"K": 6}
+            piecemap = {"P": 7,"R": 10,"N": 9, "B": 8,"Q": 11,"K": 12, "p": 1,"r": 4,"n": 3,"b": 2,"q": 5,"k": 6}
             start_square = move[:2]
             start_square_index = row_map[start_square[0]] + (int(start_square[1]) - 1) * 8
             end_square = move[2:4]
@@ -152,9 +139,14 @@ def valid_move(stringmove):
     return stringmove[0] in 'alphabet' and stringmove[1] in numbet and stringmove[2] in alphabet and stringmove[3] in numbet 
 
 def main_loop():
+    # Start stdin thread
+    t = None 
     print("info string eaglefish unr Build 0")
     while True:
-        option = input()
+        if t != None:
+            option = stdin_q.get()
+        else:
+            option = input()
         match option:
             case "uci":
                 print("id name eaglefish")
@@ -170,7 +162,7 @@ def main_loop():
                 continue
             case "isready":
                 # load the NN weights
-                
+
                 # print ready
                 print("readyok")
                 continue
@@ -180,10 +172,11 @@ def main_loop():
             case "ucinewgame":
                 continue
             case "quit":
-                return
+                quit()
         args = option.split()
         length = len(args)
         i = 1
+        if not " " in option: continue
         match args[0]:
             case "go":
                 start_time = time.time()
@@ -214,67 +207,67 @@ def main_loop():
                                 search = None
                                 continue
                             case "wtime":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['wtime'] = int(args[i])
                                     search = None
-                                    internal['wtime'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "btime":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['btime'] = int(args[i])
                                     search = None
-                                    internal['btime'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "winc":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['winc'] = int(args[i])
                                     search = None
-                                    internal['winc'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "binc":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['binc'] = int(args[i])
                                     search = None
-                                    internal['binc'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "movestogo":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['movestogo'] = int(args[i])
                                     search = None
-                                    internal['movestogo'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "depth":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['depth'] = int(args[i])
                                     search = None
-                                    internal['depth'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "nodes":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['nodes'] = int(args[i])
                                     search = None
-                                    internal['nodes'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "mate":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['mate'] = int(args[i])
                                     search = None
-                                    internal['mate'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "movetime":
-                                if type(args[i]) == int and args[i] > 0:
+                                try:
+                                    internal['movetime'] = int(args[i])
                                     search = None
-                                    internal['movetime'] = args[i]
                                     continue
-                                else:
+                                except:
                                     break
                             case "infinite":
                                 search = None
@@ -287,24 +280,44 @@ def main_loop():
                     i += 1
                 # get all possible moves as array in ['e2e4', 'f3g5'] format
                 poss = get_current_possible()
-
+                if t == None:
+                    t = threading.Thread(target=pass_input)
+                    t.daemon = True
+                    t.start() 
                 # do thinking stuff (or just pick a random move for now)
                 BESTMOVE = random.choice(poss)
-                movetime = internal['movetime'] if internal['movetime'] != 0 else 200
+                movetime = internal['movetime'] if internal['movetime'] != 0 else 300
                 if internal['infinite']: movetime = 0
+                passed = None
                 while internal['infinite'] or movetime > int(1000*(time.time() - start_time)):
-                    # we should do background processing instead of just waiting here
-                    cmd = input_with_timeout("Commands:", max((movetime/1000 - time.time() - start_time), 0.1))
-                    match cmd:
-                        case "quit":
-                            return
-                        case "stop":
-                            print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))))
-                            print('bestmove ' + BESTMOVE)
-                            internal['infinite'] = False
+                    try:
+                        passed = stdin_q.get(False)
+                    except queue.Empty:
+                        pass
+                    if passed != None:
+                        match passed:
+                            case "quit":
+                                quit()
+                            case "stop":
+                                print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))))
+                                print('bestmove ' + BESTMOVE)
+                                internal['infinite'] = False
+                                movetime = 0
+                            case _:
+                                passed = None
+                    else:
+                        # ALL THINKING SHOULD BE DONE BELOW HERE
+                        #
+                        #
+                        time.sleep(0.05)
+                        # 
+                        #
+                        # ALL THINKING SHOULD BE DONE ABOVE HERE
+                        # Do it iteratively so that we check "passed" every so often
                 if movetime != 0:
                     print("info nodes " + str(NODES) + " time " + str(int(1000*(time.time() - start_time))) + " pv " + BESTMOVE)
                     print('bestmove ' + BESTMOVE)
+                    raise
 
             case "setoption":
                 if not length == 5: continue
