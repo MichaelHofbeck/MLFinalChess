@@ -1,7 +1,7 @@
 import chess
 import chess.pgn
 import re
-import numpy as np
+import numpy as np 
 import random
 
 # define user
