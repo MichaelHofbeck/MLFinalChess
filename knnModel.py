@@ -1,4 +1,4 @@
-from sklearn.neighbors import KNeighborsClassifier, DistanceMetric
+from sklearn.neighbors import KNeighborsClassifier, DistanceMetric 
 from sklearn.model_selection import cross_val_score, KFold
 import numpy as np
 from matplotlib import pyplot as plt
